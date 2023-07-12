@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.slick-list{
+  margin-left: -10px;
+}
+
+.slick-slide{
+  margin-left: 10px;
+} 
+.slick-initialized .slick-slide {
+  display: flex;
+  justify-content: center;
+}
+

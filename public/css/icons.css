@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/Assets/fonts/icomoon.eot?h78nba');
+  src:  url('/Assets/fonts/icomoon.eot?h78nba#iefix') format('embedded-opentype'),
+        url('/Assets/fonts/icomoon.ttf?h78nba') format('truetype'),
+        url('/Assets/fonts/icomoon.woff?h78nba') format('woff'),
+        url('/Assets/fonts/icomoon.svg?h78nba#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Icone:before {
+  content: "\e900";
+}
+.icon-Logo .path1:before {
+  content: "\e901";
+  color: rgb(42, 122, 228);
+}
+.icon-Logo .path2:before {
+  content: "\e902";
+  margin-left: -3.5712890625em;
+  color: rgb(70, 70, 70);
+}
+.icon-Logo .path3:before {
+  content: "\e903";
+  margin-left: -3.5712890625em;
+  color: rgb(70, 70, 70);
+}
+.icon-Logo .path4:before {
+  content: "\e904";
+  margin-left: -3.5712890625em;
+  color: rgb(70, 70, 70);
+}
+.icon-Logo .path5:before {
+  content: "\e905";
+  margin-left: -3.5712890625em;
+  color: rgb(70, 70, 70);
+}
+.icon-Logo .path6:before {
+  content: "\e906";
+  margin-left: -3.5712890625em;
+  color: rgb(42, 122, 228);
+}
+.icon-Logo .path7:before {
+  content: "\e907";
+  margin-left: -3.5712890625em;
+  color: rgb(42, 122, 228);
+}
+.icon-Logo .path8:before {
+  content: "\e908";
+  margin-left: -3.5712890625em;
+  color: rgb(42, 122, 228);
+}
+.icon-Logo .path9:before {
+  content: "\e909";
+  margin-left: -3.5712890625em;
+  color: rgb(42, 122, 228);
+}
+.icon-Logo .path10:before {
+  content: "\e90a";
+  margin-left: -3.5712890625em;
+  color: rgb(42, 122, 228);
+}
