@@ -11,20 +11,17 @@ app.get('/', (req, res) => {
   res.render('home');
 })
 
-
-app.get('/hola-mundo', (req, res) => {
-    res.send('Hello mundo en su respectiva ruta')
-  })
-
-
-// app.get('/generic', (req, res) => {
-//   res.send(__dirname + '/public/generic.html')
-// })  
-
+app.get('/login', (req, res) => {
+  res.sendFile( __dirname + '/public/login.html');
+})
 
 app.get('*', (req, res) => {
   res.sendFile( __dirname + '/public/404.html');
 })
+
+app.get('/hola-mundo', (req, res) => {
+    res.send('Hello mundo en su respectiva ruta')
+  })
 
 app.listen(port, () => {
     console.log(`Example http://localhost: ${port}`)

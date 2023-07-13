@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.login__button{
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: #FFF;
+    font-size: 18px;
+    padding: 12px 16px;
+    width: 109px;
+}
+
+.login__container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.login__input{
+    padding: 8px 12px;
+}
+
+.login__input--container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 275px;
+}
+
+.login__title{
+    color: #464646;
+    font-size: 16px;
+    font-weight: 700;
+    width: 105px;
+}
+
+@media screen and (min-width:768px) {
+    .login__button{
+        width: 109px;
+    }
+
+    .login__container{
+        gap: 16px;
+    }
+    
+    .login__input{
+        padding: 8px 12px
+    }
+    .login__input--container{
+        gap: 16px;
+        width: 275px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .login__button{
+        padding: 12px 16px;
+        width: 423px;
+    }
+
+    .login__container{
+        gap: 25px; 
+    }
+
+    .login__input{
+        padding: 16px 12px;
+    }
+    .login__input--container{
+        gap: 25px;
+        width: 423px;
+    }
+
+    .login__title{
+        font-size: 18px;
+        width: 131px;
+    }
+}
