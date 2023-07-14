@@ -5,6 +5,10 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+.login{
+    background:#F5F5F5;
+    padding: 95px 0;
+}
 
 .login__button{
     background-color: #2A7AE4;
@@ -38,6 +42,10 @@
     font-size: 16px;
     font-weight: 700;
     width: 105px;
+}
+
+.navbar__button{
+    display: none;
 }
 
 @media screen and (min-width:768px) {
