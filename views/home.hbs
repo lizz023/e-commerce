@@ -3,13 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>{{ titulo }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-    <!-- Link Swiper's CSS -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> -->
+   
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <!-- <link rel="stylesheet" href="./css/slick/slick-theme.css">
-    <link rel="stylesheet" href="./css/slick/slick.css"> -->
     <link rel="stylesheet" href="./assets/slick/slick-theme.css">
     <link rel="stylesheet" href="./assets/slick/slick.css">
     <link rel="stylesheet" href="./css/icons.css">
@@ -22,28 +19,13 @@
     
 </head>
 <body>
-    <nav class="navbar">
-      <div class="navbar__container">
-        <img class="navbar__img" src="./assets/img/Logo.svg" alt="">
-        <div class="navbar__input">
-            <input class="navbar__input--container" type="text" placeholder="¿Qué deseas buscar?">
-            <i class="icon-Icone"></i>
-        </div>
-      </div>
-  
-      <button class="navbar__button">
-        Login
-      </button>
-     </nav>
+    {{!-- //NAVBAR --}}
+    {{> navbar}}
+    
 
-    <header class="header__container">
-        <img class="header__img" src="./assets/img/boukaih-FdyzI_X38Yw-unsplash.jpg" alt="">
-        <div class="header__description">
-            <h1 class="header__title">Febrero Promocional</h1>
-            <h2>Productos seleccionados con 33% de descuento</h2>
-            <button class="header__description--button">Ver Consolas</button>
-        </div>
-    </header>
+    {{!-- //Header --}}
+    {{> header}}
+    
 
     <main class="main__container">
       <div class="container__name">
@@ -248,48 +230,12 @@
       </section>
     </main>
 
-    <footer class="footer__container">
-      <div class="footer__description">
+    {{!-- //Footer --}}
+    {{> footer}}
 
-        <div class="footer__package">
 
-          <div class="footer__logo">
-            <img src="./assets/img/Logo.svg" alt="">
-          </div>
-
-          <div class="footer__options">
-            <a class="footer__options--link" href="">Quienes Somos</a>
-            <a class="footer__options--link" href="">Politica de privacidad</a>
-            <a class="footer__options--link" href="">Programa de fidelidad</a>
-            <a class="footer__options--link" href="">Nuestras tiendas</a>
-            <a class="footer__options--link" href="">Quiero ser franquiciado</a>
-            <a class="footer__options--link" href="">Anuncie aquí</a>
-          </div>
-          
-        </div>
-        
-        <div class="footer__contact">
-          <p class="footer__contact--title">Hable con nosotros</p>
-          <input class="footer__contact--input" type="text" placeholder="Nombre">
-          <textarea class="footer__contact--text" placeholder="Escribe tu mensaje" name="" id="" cols="30" rows="10"></textarea>
-          <button class="footer__contact--button">Enviar mensaje</button>
-        </div>
-      </div>
-    </footer>
-
-      <div class="copyright">
-        <p>© Copyright Elizabeth Restrepo - 2023</p>
-      </div>
+    {{!-- //Script --}}
     
-        
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-    
-    <script src="./js/carrusel.js"></script>
-    <script src="./js/slick.js"></script>
-    <script src="./js/slick.min.js"></script>
    
 </body>
 </html>

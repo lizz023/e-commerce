@@ -1,14 +1,29 @@
-const express = require('express')
+const express = require('express');
+const hbs = require('hbs');
+
 const app = express()
 const port = 8080;
 
+//Handlebars //Reutilizar componentes
 app.set('view engine', 'hbs');
+hbs.registerPartials(__dirname + '/views/partials', function (err) {});
 
 // Servir contenido estatico
 app.use(express.static('public'));
 
+//Controlador
 app.get('/', (req, res) => {
-  res.render('home');
+  res.render('home',{
+    nombre: 'Elizabeth Restrepo',
+    titulo: 'E-commerce'
+  });
+})
+
+app.get('/login', (req, res) => {
+  res.render('login',{
+    nombre: 'Elizabeth Restrepo',
+    titulo: 'E-commerce'
+  });
 })
 
 app.get('/login', (req, res) => {
