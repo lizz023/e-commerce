@@ -26,8 +26,30 @@ app.get('/login', (req, res) => {
   });
 })
 
+app.get('/products', (req, res) => {
+  res.render('products',{
+    nombre: 'Elizabeth Restrepo',
+    titulo: 'E-commerce'
+  });
+})
+
+app.get('/add-products', (req, res) => {
+  res.render('add-products',{
+    nombre: 'Elizabeth Restrepo',
+    titulo: 'E-commerce'
+  });
+})
+
 app.get('/login', (req, res) => {
   res.sendFile( __dirname + '/public/login.html');
+})
+
+app.get('/products', (req, res) => {
+  res.sendFile( __dirname + '/public/products.html');
+})
+
+app.get('/add-products', (req, res) => {
+  res.sendFile( __dirname + '/public/add-products.html');
 })
 
 app.get('*', (req, res) => {

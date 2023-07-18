@@ -17,17 +17,46 @@
 
 .navbar__button{
     align-items: center;
-    background: #FFF;
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
+    cursor: pointer;
     display: flex;
     font-size: 14px;
     font-weight: 600;
     justify-content: center;
     height: 40px;
+    overflow: hidden;
     padding: 12px 16px;
+    position: relative;
+    transition: 0.3s;
+    transition-delay: 0.3s;
+    text-decoration: none;
     width: 133px;
+    z-index: 1;
 }
+
+.navbar__button::before{
+    background:#2A7AE4;
+    border-radius: 50%;
+    content: "";
+    height: 200%;
+    position: absolute;
+    top: -80px;
+    transition: 0.3s;
+    width: 150%;
+    z-index: -1;
+}
+
+.navbar__button:hover {
+    color: #FFF; 
+}
+  
+.navbar__button:hover::before {
+    top: -20px;
+} 
+
+
+
 
 .navbar__container{
     align-items: center;

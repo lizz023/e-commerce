@@ -1,0 +1,125 @@
+.card__container--position{
+    color: #464646;
+    position: relative;
+    text-decoration: none;
+    transform: 0.3s;
+}
+
+.card__container--position:hover{
+    transform: scale(2);
+}
+.container__title--products{
+    font-size: 22px;
+}
+
+.container__name--products{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.controls__comand{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    right: 1.3px;
+    top: 8px;
+}
+
+.controls__delete{
+    transition: 0.5s;
+}
+
+.controls__delete:hover{
+    background: #2A7AE4;
+    transform: scale(1.1);
+}
+
+.controls__edit{
+    transition: 0.3s;
+}
+
+.controls__edit:hover{
+    background: #2A7AE4;
+    transform: scale(1.1);
+}
+
+.grid__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 1136px;
+    padding-top: 16px;
+}
+
+.navbar__button--products{
+    display: none;
+}
+
+.products__button{
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    padding: 12px 16px;
+    transition: 0.3s;
+    width: 150px;
+}
+
+.products__button:hover{
+    background: red;
+    border: 1px solid red;
+    opacity: 0.9;
+}
+
+.products__button--link{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+@media screen and (min-width:768px) {
+
+    .controls__comand{
+        gap: 16px;
+        right: 0.5em;
+        padding: 8px;
+    }
+    .container__name--products{
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .grid__container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    .controls__comand{
+        gap: 16px;
+        right: 1em;
+        padding: 8px;
+    }
+    .container__name--products{
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .container__title--products{
+        font-size: 32px;
+    }
+   
+    .grid__container{
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .products__button{
+        padding: 16px;
+        width: 163px;
+    }
+}
