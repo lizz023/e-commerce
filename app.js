@@ -11,6 +11,7 @@ hbs.registerPartials(__dirname + '/views/partials', function (err) {});
 // Servir contenido estatico
 app.use(express.static('public'));
 
+
 //Controlador
 app.get('/', (req, res) => {
   res.render('home',{
@@ -26,8 +27,22 @@ app.get('/login', (req, res) => {
   });
 })
 
-app.get('/products', (req, res) => {
-  res.render('products',{
+app.get('/products-toys', (req, res) => {
+  res.render('products-toys',{
+    nombre: 'Elizabeth Restrepo',
+    titulo: 'E-commerce'
+  });
+})
+
+app.get('/products-game_console', (req, res) => {
+  res.render('products-game_console',{
+    nombre: 'Elizabeth Restrepo',
+    titulo: 'E-commerce'
+  });
+})
+
+app.get('/products-board_game', (req, res) => {
+  res.render('products-board_game',{
     nombre: 'Elizabeth Restrepo',
     titulo: 'E-commerce'
   });
@@ -44,9 +59,18 @@ app.get('/login', (req, res) => {
   res.sendFile( __dirname + '/public/login.html');
 })
 
-app.get('/products', (req, res) => {
-  res.sendFile( __dirname + '/public/products.html');
+app.get('/products-toys', (req, res) => {
+  res.sendFile( __dirname + '/public/products-toys.html');
 })
+
+app.get('/products-toys', (req, res) => {
+  res.sendFile( __dirname + '/public/products-game_console.html');
+})
+
+app.get('/products-toys', (req, res) => {
+  res.sendFile( __dirname + '/public/products-board_game.html');
+})
+
 
 app.get('/add-products', (req, res) => {
   res.sendFile( __dirname + '/public/add-products.html');
