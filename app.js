@@ -1,8 +1,14 @@
+require('dotenv').config();
+
 const express = require('express');
 const hbs = require('hbs');
 
 const app = express()
 const port = 8080;
+
+app.listen(process.env.PORT, () =>{
+  console.log("Servidor corriendo en puerto: 8080")
+});
 
 //Handlebars //Reutilizar componentes
 app.set('view engine', 'hbs');
@@ -84,6 +90,3 @@ app.get('/hola-mundo', (req, res) => {
     res.send('Hello mundo en su respectiva ruta')
   })
 
-app.listen(port, () => {
-    console.log(`Example http://localhost: ${port}`)
-})

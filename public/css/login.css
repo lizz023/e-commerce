@@ -11,13 +11,44 @@
 }
 
 .login__button{
-    background-color: #2A7AE4;
+    align-items: center;
+    background: #2A7AE4;
     border: 1px solid #2A7AE4;
     color: #FFF;
+    cursor: pointer;
+    display: flex;
     font-size: 18px;
-    padding: 12px 16px;
+    font-weight: 500;
+    justify-content: center;
+    overflow: hidden;
+    padding:  12px 16px;
+    position: relative;
+    transition: 0.3s;
+    transition-delay: 0.3s;
     width: 109px;
+    z-index: 1;
 }
+
+.login__button::before{
+    background:#FFF;
+    border-radius: 50%;
+    content: "";
+    height: 200%;
+    position: absolute;
+    top: -100px;
+    transition: 0.3s;
+    width: 150%;
+    z-index: -1;
+}
+
+.login__button:hover {
+    color: #2A7AE4; 
+}
+  
+.login__button:hover::before {
+    top: -20px;
+} 
+
 
 .login__container{
     align-items: center;

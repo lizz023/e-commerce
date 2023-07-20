@@ -1,0 +1,104 @@
+{
+    "products-toys":[
+        {
+            "name": "Sating 3 piezas mario bros",
+            "imgURL": "assets/img/cards/cards-mario/1234.jpg",
+            "price": "13 USD",
+            "id": 1
+        },
+        {
+            "name": "Figura de acción Bowser de 7 pulgadas",
+            "imgURL": "assets/img/cards/cards-mario/5678.jpg",
+            "price": "28 USD",
+            "id": 2
+        },
+        {
+            "name": "Paquete de 6 figuras de acción de Mario Toys",
+            "imgURL": "assets/img/cards/cards-mario/71WHgAryJaL.jpg",
+            "price": "31 USD",
+            "id": 3
+        },
+        {
+            "name": "Figura de acción magikoopa con accesorio de varita",
+            "imgURL": "assets/img/cards/cards-mario/71+uiRV7lGL.jpg",
+            "price": "18 USD",
+            "id": 4
+        },
+        {
+            "name": "Figura de acción Boo World of Nintendo",
+            "imgURL": "assets/img/cards/cards-mario/51rB9mrzO5L.jpg",
+            "price": "14 USD",
+            "id": 5
+        },
+        {
+            "name": "Radio juguete de largo alcance",
+            "imgURL": "assets/img/cards/cards-mario/81CkgXlS8XL.jpg",
+            "price": "20 USD",
+            "id": 6
+        },
+        {
+            "name": "Princesa Peach con paraguas",
+            "imgURL": "assets/img/cards/cards-mario/81jEBlaSWQL.jpg",
+            "price": "22 USD",
+            "id": 7
+        },
+        {
+            "name": "Figura de Mario Bros",
+            "imgURL": "assets/img/cards/cards-mario/71LlfjTJiRL.jpg",
+            "price": "10 USD",
+            "id": 8
+        },
+        {
+            "name": "Yoshi con accesorio de sarten",
+            "imgURL": "assets/img/cards/cards-mario/61JDcd02yCL.jpg",
+            "price": "15 USD",
+            "id": 9
+        },
+        {
+            "name": "Bomba de juquete coleccionable",
+            "imgURL": "assets/img/cards/cards-mario/41CKAeCVJTL.jpg",
+            "price": "35 USD",
+            "id": 10 
+        },
+        {
+            "name": "Luz nocturna de ilusión",
+            "imgURL": "assets/img/cards/cards-mario/61w-X9AZ.jpg",
+            "price": "19 USD",
+            "id": 11
+        },
+        {
+            "name": "48 piezas de mini juguetes Mario Bros",
+            "imgURL": "assets/img/cards/cards-mario/71W5posa5pL.jpg",
+            "price": "43 USD",
+            "id": 12
+        },
+        
+        {
+            "name": "5 piezas de mini juguetes Mario Bros",
+            "imgURL": "assets/img/cards/cards-mario/51ZLlIuSGGL.jpg",
+            "price": "43 USD",
+            "id": 13
+        },
+        
+        {
+            "name": "Peluche Mario y luigi",
+            "imgURL": "assets/img/cards/cards-mario/71b3nnP-N0L.jpg",
+            "price": "29 USD",
+            "id": 14
+        },
+        
+        {
+            "name": "Peluche yoshi 7.6 pulgadas",
+            "imgURL": "assets/img/cards/cards-mario/71JDoBk2CEL.jpg",
+            "price": "10 USD",
+            "id": 15
+        }
+    ],
+
+    "products-game_console":[
+        
+    ]
+    
+
+
+}
