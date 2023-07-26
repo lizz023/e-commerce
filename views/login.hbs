@@ -12,12 +12,23 @@
     <section class="login">
         <div class="login__container" id="login">
             <h1 class="login__title">Iniciar Sección</h1>
-            <div class="login__input--container">
-                <input class="login__input" type="email" placeholder="Escriba su correo electronico">
-                <input class="login__input" type="password" placeholder="Escriba su contraseña">
+
+            <form  action="" class="form" data-form="">
+             <div class="input-container">
+                <input name="email" id="email" class="input" type="email" placeholder="Escriba su correo Electronico" required data-email="">
+                <label class="input-label" for="email">Escriba su correo Electronico</label>
+                <span class="input-message-error">Este campo no es valido</span>
             </div>
+            <div class="input-container">
+                <input name="password" id="password" class="input" type="password" placeholder="Escriba su contraseña" required data-password="">
+                <label class="input-label" for="password">Escriba su contraseña</label>
+                <span class="input-message-error">Este campo no es valido</span>
+            </div>
+
+            <button type="submit" class="login__button">Entrar</button>
+
+            </form>
             
-            <button class="login__button">Entrar</button>
         </div>
     </section>
 

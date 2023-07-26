@@ -10,13 +10,13 @@
         <section class="add-products">
             <div class="add-products__container" id="login">
             <h1 class="add-products__title">Agregar nuevo producto</h1>
-            <div class="add-products__input--container">
-                <input class="add-products__input" type="text" placeholder="URL de la imagen">
+            <form action="" class="add-products__input--container" data-form="">
+                <input class="add-products__input" type="text" data-imgURL="" placeholder="URL de la imagen">
                 <input class="add-products__input" type="text" placeholder="Categoría">
-                <input class="add-products__input" type="text" placeholder="Nombre del producto">
-                <input class="add-products__input" type="number" placeholder="Precio del producto">
+                <input class="add-products__input" type="text" data-name="" placeholder="Nombre del producto">
+                <input class="add-products__input" type="number" data-price="" placeholder="Precio del producto">
                 <input class="add-products__input" type="text" placeholder="Descripción del producto">
-            </div>
+            </form>
             <button class="add-products__button">Agregar producto</button>
         </div>
         </section>
@@ -24,6 +24,8 @@
 
     {{!-- //Footer --}}
     {{> footer}}
+
+    <script type="module" src="../controllers/crear-products-controlles.js"></script>
 
     
 </body>

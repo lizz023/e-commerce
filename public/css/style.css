@@ -13,10 +13,7 @@
 .slick-slide{
   margin-left: 10px;
 } 
-.slick-initialized .slick-slide {
-  display: flex;
-  justify-content: center;
-}
+
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
   color: black;

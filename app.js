@@ -33,15 +33,15 @@ app.get('/login', (req, res) => {
   });
 })
 
-app.get('/products-toys', (req, res) => {
-  res.render('products-toys',{
+app.get('/products-mario_bros', (req, res) => {
+  res.render('products-mario_bros',{
     nombre: 'Elizabeth Restrepo',
     titulo: 'E-commerce'
   });
 })
 
-app.get('/products-game_console', (req, res) => {
-  res.render('products-game_console',{
+app.get('/products-video_game', (req, res) => {
+  res.render('products-video_game',{
     nombre: 'Elizabeth Restrepo',
     titulo: 'E-commerce'
   });
@@ -66,11 +66,11 @@ app.get('/login', (req, res) => {
 })
 
 app.get('/products-toys', (req, res) => {
-  res.sendFile( __dirname + '/public/products-toys.html');
+  res.sendFile( __dirname + '/public/products-mario_bros.html');
 })
 
 app.get('/products-toys', (req, res) => {
-  res.sendFile( __dirname + '/public/products-game_console.html');
+  res.sendFile( __dirname + '/public/products-video_game.html');
 })
 
 app.get('/products-toys', (req, res) => {

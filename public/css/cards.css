@@ -24,26 +24,15 @@
     font-weight: 700;
     text-decoration: none;
 }
-/* .container__consola{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 16px;
-    max-width: 1136px;
-} */
-
-.card__container--description{
-   /* border: 1px solid black; */
-   border-radius: 10px;
-   /* padding: 3px; */
-} 
 
 .card__container{
-    /* border: 1px solid palevioletred; */
+    border: 1px solid red;
     color: #464646;
-    text-decoration: none;
+    cursor: pointer;
+    height: 250px;
+    padding: 5px;
     transition: 0.3s;
-    
-}
+} 
 
 .card__container:hover{
     transform: scale(1.1);
