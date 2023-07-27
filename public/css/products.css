@@ -2,11 +2,11 @@
     color: #464646;
     position: relative;
     text-decoration: none;
-    transform: 0.3s;
+    transition: 0.3s;
 }
 
 .card__container--position:hover{
-    transform: scale(2);
+    transform: scale(1);
 }
 .container__title--products{
     font-size: 22px;
@@ -72,6 +72,7 @@
 
 .products__button--link{
     color: #FFF;
+    display: contents;
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;

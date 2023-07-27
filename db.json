@@ -1,156 +1,132 @@
 {
   "products-mario_bros": [
     {
-      "name": "Sating 3 piezas mario bros",
       "imgURL": "assets/img/cards/cards-mario/1234.jpg",
+      "categoria": "mario bros",
+      "name": "Sating 3 piezas mario bros",
       "price": "13 USD",
-      "id": 1
-    },
-    {
-      "name": "Figura de acción Bowser de 7 pulgadas",
-      "imgURL": "assets/img/cards/cards-mario/5678.jpg",
-      "price": "28 USD",
-      "id": 2
-    },
-    {
-      "name": "Paquete de 6 figuras de acción de Mario Toys",
-      "imgURL": "assets/img/cards/cards-mario/71WHgAryJaL.jpg",
-      "price": "31 USD",
-      "id": 3
-    },
-    {
-      "name": "Figura de acción magikoopa con accesorio de varita",
-      "imgURL": "assets/img/cards/cards-mario/71+uiRV7lGL.jpg",
-      "price": "18 USD",
-      "id": 4
-    },
-    {
-      "name": "Figura de acción Boo World of Nintendo",
-      "imgURL": "assets/img/cards/cards-mario/51rB9mrzO5L.jpg",
-      "price": "14 USD",
+      "descripcion": "HASDY",
       "id": 5
     },
     {
-      "name": "Radio juguete de largo alcance",
-      "imgURL": "assets/img/cards/cards-mario/81CkgXlS8XL.jpg",
-      "price": "20 USD",
+      "imgURL": "assets/img/cards/cards-mario/5678.jpg",
+      "categoria": "mario bros",
+      "name": "Figura de acción Bowser de 7 pulgadas",
+      "price": "28 USD",
+      "descripcion": "ASHHD",
+      "id": 4
+    },
+    {
+      "imgURL": "assets/img/cards/cards-mario/71WHgAryJaL.jpg",
+      "categoria": "mario bros",
+      "name": "Paquete de 6 figuras de acción de Mario Toys",
+      "price": "31 USD",
+      "descripcion": "JGAGGA",
       "id": 6
     },
     {
-      "name": "Princesa Peach con paraguas",
-      "imgURL": "assets/img/cards/cards-mario/81jEBlaSWQL.jpg",
-      "price": "22 USD",
+      "imgURL": "assets/img/cards/cards-mario/71+uiRV7lGL.jpg",
+      "categoria": "mario bros",
+      "name": "Figura de acción con accesorio de varita",
+      "price": "18 USD",
+      "descripcion": "SYSDY",
       "id": 7
     },
     {
-      "name": "Figura de Mario Bros",
-      "imgURL": "assets/img/cards/cards-mario/71LlfjTJiRL.jpg",
-      "price": "10 USD",
+      "imgURL": "assets/img/cards/cards-mario/51rB9mrzO5L.jpg",
+      "categoria": "mario bros",
+      "name": "Figura de acción Boo World of Nintendo",
+      "price": "14 USD",
+      "descripcion": "HASBGGS",
       "id": 8
     },
     {
-      "name": "Yoshi con accesorio de sarten",
-      "imgURL": "assets/img/cards/cards-mario/61JDcd02yCL.jpg",
-      "price": "15 USD",
+      "imgURL": "assets/img/cards/cards-mario/81CkgXlS8XL.jpg",
+      "categoria": "mario bros",
+      "name": "Radio juguete de largo alcance",
+      "price": "20 USD",
+      "descripcion": "ASHSHHDS",
       "id": 9
     },
     {
-      "name": "Bomba de juquete coleccionable",
-      "imgURL": "assets/img/cards/cards-mario/41CKAeCVJTL.jpg",
-      "price": "35 USD",
+      "imgURL": "assets/img/cards/cards-mario/81jEBlaSWQL.jpg",
+      "categoria": "mario bros",
+      "name": "Princesa Peach con paraguas",
+      "price": "22 USD",
+      "descripcion": "HSHSAG",
       "id": 10
     },
     {
-      "name": "Luz nocturna de ilusión",
-      "imgURL": "assets/img/cards/cards-mario/61w-X9AZ.jpg",
-      "price": "19 USD",
+      "imgURL": "assets/img/cards/cards-mario/71LlfjTJiRL.jpg",
+      "categoria": "mario bros",
+      "name": "Figura de Mario Bros",
+      "price": "10 USD",
+      "descripcion": " hahhaha",
       "id": 11
     },
     {
-      "name": "48 piezas de mini juguetes Mario Bros",
-      "imgURL": "assets/img/cards/cards-mario/71W5posa5pL.jpg",
-      "price": "43 USD",
+      "imgURL": "assets/img/cards/cards-mario/61JDcd02yCL.jpg",
+      "categoria": "mario bros",
+      "name": "Yoshi con accesorio de sarten",
+      "price": "15 USD",
+      "descripcion": "JSDYEY",
       "id": 12
     },
     {
-      "name": "5 piezas de mini juguetes Mario Bros",
-      "imgURL": "assets/img/cards/cards-mario/51ZLlIuSGGL.jpg",
-      "price": "43 USD",
+      "imgURL": "assets/img/cards/cards-mario/41CKAeCVJTL.jpg",
+      "categoria": "mario bros",
+      "name": "Bomba de juquete coleccionable",
+      "price": "35 USD",
+      "descripcion": "ashydgsa",
       "id": 13
     },
     {
-      "name": "Peluche Mario y luigi",
-      "imgURL": "assets/img/cards/cards-mario/71b3nnP-N0L.jpg",
-      "price": "29 USD",
+      "imgURL": "assets/img/cards/cards-mario/61w-X9AZ.jpg",
+      "categoria": "mario bros",
+      "name": "Luz nocturna de ilusión",
+      "price": "19 USD",
+      "descripcion": "JDFURESYUD",
       "id": 14
     },
     {
-      "name": "Peluche yoshi 7.6 pulgadas",
-      "imgURL": "assets/img/cards/cards-mario/71JDoBk2CEL.jpg",
-      "price": "10 USD",
+      "imgURL": "assets/img/cards/cards-mario/71W5posa5pL.jpg",
+      "categoria": "mario bros",
+      "name": "48 piezas de mini juguetes Mario Bros",
+      "price": "34 USD",
+      "descripcion": "shdurfhfnv",
       "id": 15
-    }
-  ],
-  "products-video_game": [
+    },
     {
-      "name": "Nintendo Switch with Neon Blue and Neon Red",
-      "imgURL": "assets/img/cards/cards-consola/41W5CxtCsgL.webp",
-      "price": "215 USD",
+      "imgURL": "assets/img/cards/cards-mario/51ZLlIuSGGL.jpg",
+      "categoria": "mario bros",
+      "name": "5 piezas de mini juguetes Mario Bros",
+      "price": "40 USD ",
+      "descripcion": "jxshdsh",
       "id": 16
     },
     {
-      "name": "Play Statio PS4 black",
-      "imgURL": "assets/img/cards/cards-consola/51OnenSqevL.jpg",
-      "price": "350 USD",
+      "imgURL": "assets/img/cards/cards-mario/71b3nnP-N0L.jpg",
+      "categoria": "mario bros",
+      "name": "Peluche Mario y luigi",
+      "price": "29 USD ",
+      "descripcion": "usydsz",
       "id": 17
     },
     {
-      "name": "Consola de juegos, bateria incorporada",
-      "imgURL": "assets/img/cards/cards-consola/61VeVFjD0hL.jpg",
-      "price": "160 USD",
+      "imgURL": "assets/img/cards/cards-mario/71JDoBk2CEL.jpg",
+      "categoria": "mario bros",
+      "name": "Peluche yoshi 7.6 pulgadas",
+      "price": "10 USD",
+      "descripcion": "HSHDYS",
       "id": 18
     },
     {
-      "name": "Sony play station 2 console black",
-      "imgURL": "assets/img/cards/cards-consola/61pETE6v4vL.jpg",
-      "price": "150 USD",
+      "imgURL": "https://t2.ea.ltmcdn.com/es/posts/1/6/2/10_curiosidades_del_golden_retriever_21261_orig.jpg",
+      "categoria": "mario bros",
+      "name": "golden",
+      "price": "120 USD",
+      "descripcion": "JSJS",
       "id": 19
-    },
-    {
-      "name": "RG405M Retro Game Player Android 12",
-      "imgURL": "assets/img/cards/cards-consola/61hczff9SjL.jpg",
-      "price": "187 USD",
-      "id": 20
-    },
-    {
-      "name": "Consola de juegos portatil 500 juegos",
-      "imgURL": "assets/img/cards/cards-consola/71unFU3zqpL.jpg.jpg",
-      "price": "30 USD",
-      "id": 21
-    },
-    {
-      "name": "Nintendo Switch Lite - Blue",
-      "imgURL": "assets/img/cards/cards-consola/61gndBOP9zS.jpg",
-      "price": "167 USD",
-      "id": 22
-    },
-    {
-      "name": "Nintendo eShop Gift Card",
-      "imgURL": "assets/img/cards/cards-consola/61RVryJZMEL.jpg",
-      "price": "10 USD",
-      "id": 23
-    },
-    {
-      "name": "Controlador inhalambrico para Switch",
-      "imgURL": "assets/img/cards/cards-consola/71YNm35y1OL.jpg",
-      "price": "30 USD",
-      "id": 24
-    },
-    {
-      "name": "Controlador para interruptor",
-      "imgURL": "assets/img/cards/cards-consola/71ZKhvqOD4L.jpg",
-      "price": "45 USD",
-      "id": 25
     }
   ],
   "products-board_game": [
@@ -230,6 +206,21 @@
       "email": "neiroandres@yahoo.com",
       "password": "hahjjj",
       "id": "08bc103b-9eb0-480e-9064-864c305cc889"
+    },
+    {
+      "email": "wm@gmail.com",
+      "password": "jjjs",
+      "id": "458b8aa2-7dce-46c4-a7e3-fd87ff83ed23"
+    },
+    {
+      "email": "eliiza.023@gmail.com",
+      "password": "sjshd",
+      "id": "b7b8406e-9f4e-4250-9fb9-e4d73c7ae66d"
+    },
+    {
+      "email": "abie@djdjd",
+      "password": "jss",
+      "id": "744209c4-1b80-4285-a36e-6d0bb409c184"
     }
   ]
 }
