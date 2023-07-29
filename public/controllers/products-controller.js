@@ -34,7 +34,8 @@ productService.productsMario().then((data) => {
 
         data.forEach(({name, imgURL, price, id}) => {
             const newLinea = newProduct(name, imgURL, price, id)
-            productos.appendChild(newLinea)
+            productos.appendChild(newLinea);
+            productos.firstChild(newLinea)
         });
         productos.classList.add("your-class")
         initCarousels();
