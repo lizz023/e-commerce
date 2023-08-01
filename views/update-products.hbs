@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{!-- //Head  --}}
+    {{> head}}
+<body>
+
+    <nav class="navbar">
+        <div class="navbar__container">
+            <img src="./assets/img/Logo.svg" alt="">
+            <div class="navbar__input">
+                <input class="navbar__input--container" type="text" placeholder="¿Qué deseas buscar?">
+                <i class="icon-Icone"></i>
+            </div>
+
+            <a href="/login" class="navbar__button--general">
+                Menú Administrador
+            </a>
+        </div>
+
+        
+    </nav>
+
+    <section class="add-products">
+        <div class="add-products__container" id="login">
+        <h1 class="add-products__title">Actualizar producto</h1>
+
+        <form action="" class="form">
+
+        <div class="input-container">
+            <input name="url" id="url" class="input" type="text" placeholder="URL de la imagen" required data-email="">
+            <label class="input-label" for="url">URL de la imagen</label>
+            <span class="input-message-error">Este campo no es valido</span>
+        </div>
+        <div class="input-container">
+            <input name="categoria" id="categoria" class="input" type="text" placeholder="Categoria" required data-password="">
+            <label class="input-label" for="categoria">Categoria</label>
+            <span class="input-message-error">Este campo no es valido</span>
+        </div>
+        <div class="input-container">
+            <input name="name" id="name" class="input" type="text" placeholder="Nombre del producto" required data-password="">
+            <label class="input-label" for="name">Nombre del producto</label>
+            <span class="input-message-error">Este campo no es valido</span>
+        </div>
+        <div class="input-container">
+            <input name="precio" id="precio" class="input" type="text" placeholder="Precio de producto" required data-password="">
+            <label class="input-label" for="precio">Precio de producto</label>
+            <span class="input-message-error">Este campo no es valido</span>
+        </div>
+        <div class="input-container">
+            <input name="descripcion" id="descripcion" class="input" type="text" placeholder="Descripción" required data-password="">
+            <label class="input-label" for="descripcion">Descripción</label>
+            <span class="input-message-error">Este campo no es valido</span>
+        </div>
+
+        <button type="submit" class="form__button">Actualizar producto</button>
+
+    </form>
+
+    </section>
+
+    
+    
+    {{!-- //Footer --}}
+    {{> footer}}
+    
+</body>
+</html>

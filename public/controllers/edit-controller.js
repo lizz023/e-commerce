@@ -8,26 +8,35 @@ const Product = (name, imgURL, price, id ) =>{
     <div class="card__container--position">
         <img class="card__img" src="${imgURL}" alt="">
         <div class="controls__comand">
-            <button class="controls__delete" type="button">
-                <i class="icon-eliminar_negro_24dp-1-1"></i>
+            <button class="controls__delete" type="button" id=${id}>
+                <i class="icon-eliminar_negro_24dp-1-1" ></i>
             </button>
             
-            <button class="controls__edit" type="button">
+            <a href="/update-products" class="controls__edit">
                 <i class="icon-edit_black_24dp-1"></i>
-            </button>
-
+            </a>
+        
         </div>
         <h4>${price}</h4>
         <p>${name}</p>
         <a href="${id}">Ver producto</a>
+        
     </div>`
 
-    cardMario.innerHTML = container
+
+    cardMario.innerHTML = container;
+    const btn = cardMario.querySelector("button");
+    btn.addEventListener("click", () => {
+        const id = btn.id;
+        productService.eliminarProducto(id).then( respuesta =>{
+            console.log(respuesta);
+        }).catch(err => alert("Ocurrio un error eliza"))
+    });
+    
     return cardMario;
 }
 
 const targetas = document.querySelector("[data-mario]")
-console.log(targetas);
 
 productService.productsMario().then((data) => {
     data.forEach(({name, imgURL, price, id}) => {

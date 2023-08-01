@@ -61,32 +61,39 @@ app.get('/add-products', (req, res) => {
   });
 })
 
+app.get('/update-products', (req, res) => {
+  res.render('update-products',{
+    nombre: 'Elizabeth Restrepo',
+    titulo: 'E-commerce'
+  });
+})
+
 app.get('/login', (req, res) => {
   res.sendFile( __dirname + '/public/login.html');
 })
 
-app.get('/products-toys', (req, res) => {
+app.get('/products-mario_bros', (req, res) => {
   res.sendFile( __dirname + '/public/products-mario_bros.html');
 })
 
-app.get('/products-toys', (req, res) => {
+app.get('/products-video_game', (req, res) => {
   res.sendFile( __dirname + '/public/products-video_game.html');
 })
 
-app.get('/products-toys', (req, res) => {
+app.get('/products-board_game', (req, res) => {
   res.sendFile( __dirname + '/public/products-board_game.html');
 })
 
-
 app.get('/add-products', (req, res) => {
   res.sendFile( __dirname + '/public/add-products.html');
+})
+
+app.get('/update-products', (req, res) => {
+  res.sendFile( __dirname + '/public/update-products.html');
 })
 
 app.get('*', (req, res) => {
   res.sendFile( __dirname + '/public/404.html');
 })
 
-app.get('/hola-mundo', (req, res) => {
-    res.send('Hello mundo en su respectiva ruta')
-  })
 

@@ -6,10 +6,7 @@
 }
 
 .navbar {
-    align-items: center;
-    background: #FFF;
-    display: flex;
-    justify-content: space-between;
+        background: #FFF;
     margin: 0 auto;
     max-width: 1136px;
     padding: 16px;
@@ -25,6 +22,8 @@
     font-weight: 600;
     justify-content: center;
     height: 40px;
+    margin-left: auto;
+    order: 1;
     overflow: hidden;
     padding: 12px 16px;
     position: relative;
@@ -59,6 +58,7 @@
     align-items: center;
     display: flex;
     gap: 32px;
+    width: 100%;
 }
 
 .navbar__img{
@@ -68,11 +68,10 @@
 .navbar__input{
     background: #F5F5F5;
     border-radius: 20px;
-    border: 1px solid gray;
     display: flex;
-    justify-content: space-between;
     width: 393px;
     height: 40px;
+    order: 2;
 }
 
 .navbar__input--container{
@@ -88,8 +87,12 @@
     .navbar{
         padding: 16px 32px;
     }
+    .navbar__button{
+        order: 2;
+    }
 
     .navbar__input{
+        order: 1;
         width: 272px;
     }
 
@@ -103,8 +106,12 @@
     .navbar{
         padding:32px 0;
     }
+    .navbar__button{
+        order: 2;
+    }
 
     .navbar__input{
+        order: 1;
         width: 393px;
     }
 

@@ -17,46 +17,6 @@
       "id": 4
     },
     {
-      "imgURL": "assets/img/cards/cards-mario/71WHgAryJaL.jpg",
-      "categoria": "mario bros",
-      "name": "Paquete de 6 figuras de acción de Mario Toys",
-      "price": "31 USD",
-      "descripcion": "JGAGGA",
-      "id": 6
-    },
-    {
-      "imgURL": "assets/img/cards/cards-mario/71+uiRV7lGL.jpg",
-      "categoria": "mario bros",
-      "name": "Figura de acción con accesorio de varita",
-      "price": "18 USD",
-      "descripcion": "SYSDY",
-      "id": 7
-    },
-    {
-      "imgURL": "assets/img/cards/cards-mario/51rB9mrzO5L.jpg",
-      "categoria": "mario bros",
-      "name": "Figura de acción Boo World of Nintendo",
-      "price": "14 USD",
-      "descripcion": "HASBGGS",
-      "id": 8
-    },
-    {
-      "imgURL": "assets/img/cards/cards-mario/81CkgXlS8XL.jpg",
-      "categoria": "mario bros",
-      "name": "Radio juguete de largo alcance",
-      "price": "20 USD",
-      "descripcion": "ASHSHHDS",
-      "id": 9
-    },
-    {
-      "imgURL": "assets/img/cards/cards-mario/81jEBlaSWQL.jpg",
-      "categoria": "mario bros",
-      "name": "Princesa Peach con paraguas",
-      "price": "22 USD",
-      "descripcion": "HSHSAG",
-      "id": 10
-    },
-    {
       "imgURL": "assets/img/cards/cards-mario/71LlfjTJiRL.jpg",
       "categoria": "mario bros",
       "name": "Figura de Mario Bros",
@@ -111,62 +71,6 @@
       "price": "29 USD ",
       "descripcion": "usydsz",
       "id": 17
-    },
-    {
-      "imgURL": "assets/img/cards/cards-mario/71JDoBk2CEL.jpg",
-      "categoria": "mario bros",
-      "name": "Peluche yoshi 7.6 pulgadas",
-      "price": "10 USD",
-      "descripcion": "HSHDYS",
-      "id": 18
-    },
-    {
-      "imgURL": "https://t2.ea.ltmcdn.com/es/posts/1/6/2/10_curiosidades_del_golden_retriever_21261_orig.jpg",
-      "categoria": "mario bros",
-      "name": "golden",
-      "price": "120 USD",
-      "descripcion": "JSJS",
-      "id": 19
-    },
-    {
-      "imgURL": "assets/img/cards/cards-mario/71JDoBk2CEL.jpg",
-      "categoria": "mario bros",
-      "name": "hola",
-      "price": "23 USD",
-      "descripcion": "JSHDUAS",
-      "id": 20
-    },
-    {
-      "imgURL": "",
-      "categoria": "",
-      "name": "",
-      "price": "",
-      "descripcion": "",
-      "id": 21
-    },
-    {
-      "imgURL": "assets/img/cards/cards-mario/71JDoBk2CEL.jpg",
-      "categoria": "JSJDJ",
-      "name": "JSWIWSA",
-      "price": "SUWU",
-      "descripcion": "USUD",
-      "id": 22
-    },
-    {
-      "imgURL": "data:image/jpeg;base64,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",
-      "categoria": "PEGRRO",
-      "name": "MANOLO ",
-      "price": "120 USD",
-      "descripcion": " DDHX",
-      "id": 23
-    },
-    {
-      "imgURL": "https://static.wikia.nocookie.net/disney/images/7/7c/Boo.png/revision/latest?cb=20131226173636&path-prefix=es",
-      "categoria": "monster",
-      "name": "Abbie",
-      "price": "no tiene precio",
-      "descripcion": "hermosa pechocha divina",
-      "id": 24
     }
   ],
   "products-board_game": [

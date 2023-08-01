@@ -16,7 +16,7 @@ if(form){
 
         productService.productsMario(imgURL,categoria,name,price,descripcion)
         .then(respuesta => {
-            window.location.href = "/add-products"
+            window.location.href = "/products-mario_bros"
             console.log(respuesta);
         }).catch((err) => console.log(err));
     })
