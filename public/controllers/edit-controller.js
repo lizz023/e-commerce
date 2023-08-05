@@ -12,7 +12,7 @@ const Product = (name, imgURL, price, id ) =>{
                 <i class="icon-eliminar_negro_24dp-1-1" ></i>
             </button>
             
-            <a href="/update-products" class="controls__edit">
+            <a class="controls__edit"  href="/update-products?id=${id}">
                 <i class="icon-edit_black_24dp-1"></i>
             </a>
         
@@ -28,7 +28,7 @@ const Product = (name, imgURL, price, id ) =>{
     const btn = cardMario.querySelector("button");
     btn.addEventListener("click", () => {
         const id = btn.id;
-        productService.eliminarProducto(id).then( respuesta =>{
+        productService.eliminarProducto(id).then((respuesta) =>{
             console.log(respuesta);
         }).catch(err => alert("Ocurrio un error eliza"))
     });

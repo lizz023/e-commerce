@@ -6,9 +6,15 @@
             <i class="icon-Icone"></i>
         </div>
 
-        <a href="/login" class="navbar__button">
-            Login
-        </a>
+        {{#if true}}
+            <a href="/login" class="navbar__button">
+                Login
+            </a>
+        {{else}}
+            <a href="/products-mario_bros" class="navbar__button">
+                Administrador
+            </a>
+        {{/if}}
     </div>
 
     

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+{{!-- //Head  --}}
+    {{> head}}
+    
+<body>
+
+       {{!-- //NAVBAR --}}
+    {{> navbar}}
+
+    <main>
+
+        <section class="login">
+            <div class="login__container" id="login">
+                <h1 class="login__title">Registro</h1>
+
+                <form  action="" class="form__login" data-singup="" id="singup">
+            
+                    <div class="input-container">
+                        <input name="email" id="email" class="input" type="email" placeholder="Escriba su correo Electronico" required autofocus data-email="">
+                        <label class="input-label" for="email">Escriba su correo Electronico</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="input-container">
+                        <input name="password" id="password" class="input" type="password" placeholder="Escriba su contraseña" required data-password="">
+                        <label class="input-label" for="password">Escriba su contraseña</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+    
+                    <button class="login__button" type="submit">Registrarse</button>
+                </form>
+                <p>Ya tienes una cuenta? <a href="/login">Login</a></p>
+                
+            </div>
+        </section>
+
+    </main>
+
+    
+    {{!-- //Footer --}}
+    {{> footer}}
+    
+</body>
+</html>

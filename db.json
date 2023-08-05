@@ -5,72 +5,120 @@
       "categoria": "mario bros",
       "name": "Sating 3 piezas mario bros",
       "price": "13 USD",
-      "descripcion": "HASDY",
-      "id": 5
+      "descripcion": "JSJSIIFS",
+      "id": "9e55a7fe-9146-446b-8367-05cca3794a6f"
     },
     {
       "imgURL": "assets/img/cards/cards-mario/5678.jpg",
       "categoria": "mario bros",
       "name": "Figura de acción Bowser de 7 pulgadas",
       "price": "28 USD",
-      "descripcion": "ASHHD",
-      "id": 4
+      "descripcion": "JHSJHZ",
+      "id": "b8ef58e3-0f51-4f48-8fc4-79fcd213a41b"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-mario/71WHgAryJaL.jpg",
+      "categoria": "mario bros",
+      "name": "Paquete de 6 figuras de acción de Mario Toys",
+      "price": "31 USD",
+      "descripcion": "SAJS",
+      "id": "2ee1c79b-1047-4e33-96a3-0effe27cbac3"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-mario/71+uiRV7lGL.jpg",
+      "categoria": "mario bros",
+      "name": "Figura de acción con accesorio de varita",
+      "price": "18 USD",
+      "descripcion": "JDHSDHJ",
+      "id": "17946cb3-f932-456b-b3eb-207c4ff3df84"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-mario/51rB9mrzO5L.jpg",
+      "categoria": "mario bros",
+      "name": "Figura de acción Boo World of Nintendo",
+      "price": "14 USD",
+      "descripcion": "CDJWSUJ",
+      "id": "0a1012de-b78a-4fbb-af45-c61f5940d172"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-mario/81CkgXlS8XL.jpg",
+      "categoria": "mario bros",
+      "name": "Radio juguete de largo alcance",
+      "price": "20 USD",
+      "descripcion": "IWQSHEWHWE",
+      "id": "4fe44423-53c7-4cf6-b9df-40be1f0db70d"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-mario/81jEBlaSWQL.jpg",
+      "categoria": "mario bros",
+      "name": "Princesa Peach con paraguas",
+      "price": "22 USD",
+      "descripcion": "IJSDUFEUYS",
+      "id": "7a79a3b6-225a-44b9-a290-cdff5878febd"
     },
     {
       "imgURL": "assets/img/cards/cards-mario/71LlfjTJiRL.jpg",
       "categoria": "mario bros",
       "name": "Figura de Mario Bros",
       "price": "10 USD",
-      "descripcion": " hahhaha",
-      "id": 11
+      "descripcion": "SHWSH",
+      "id": "a95fab81-236e-4889-8466-7910d9b7bf88"
     },
     {
       "imgURL": "assets/img/cards/cards-mario/61JDcd02yCL.jpg",
       "categoria": "mario bros",
       "name": "Yoshi con accesorio de sarten",
       "price": "15 USD",
-      "descripcion": "JSDYEY",
-      "id": 12
+      "descripcion": "IWUWE",
+      "id": "a0ada907-2582-4071-bd39-49208a57a8dd"
     },
     {
       "imgURL": "assets/img/cards/cards-mario/41CKAeCVJTL.jpg",
       "categoria": "mario bros",
       "name": "Bomba de juquete coleccionable",
       "price": "35 USD",
-      "descripcion": "ashydgsa",
-      "id": 13
+      "descripcion": "JSAJSUHS",
+      "id": "bf7ace8c-2b06-4075-a284-679175083ec4"
     },
     {
       "imgURL": "assets/img/cards/cards-mario/61w-X9AZ.jpg",
       "categoria": "mario bros",
       "name": "Luz nocturna de ilusión",
       "price": "19 USD",
-      "descripcion": "JDFURESYUD",
-      "id": 14
+      "descripcion": "UDUEUE",
+      "id": "52c7ad12-d31f-4e51-982c-e7ed69d6c2c5"
     },
     {
       "imgURL": "assets/img/cards/cards-mario/71W5posa5pL.jpg",
       "categoria": "mario bros",
       "name": "48 piezas de mini juguetes Mario Bros",
       "price": "34 USD",
-      "descripcion": "shdurfhfnv",
-      "id": 15
+      "descripcion": "JSJEJDFJ",
+      "id": "1cd3678f-45b8-4906-b926-00d953ae6c10"
     },
     {
       "imgURL": "assets/img/cards/cards-mario/51ZLlIuSGGL.jpg",
       "categoria": "mario bros",
       "name": "5 piezas de mini juguetes Mario Bros",
       "price": "40 USD ",
-      "descripcion": "jxshdsh",
-      "id": 16
+      "descripcion": "IJEHCXNSX",
+      "id": "f7aebfd5-290e-4463-9c71-aaa137c42575"
     },
     {
       "imgURL": "assets/img/cards/cards-mario/71b3nnP-N0L.jpg",
       "categoria": "mario bros",
       "name": "Peluche Mario y luigi",
-      "price": "29 USD ",
-      "descripcion": "usydsz",
-      "id": 17
+      "price": "29 USD",
+      "descripcion": "JDJCNC",
+      "id": "3abfdc35-55d6-4b67-8a62-4cb859948ab1"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-mario/71JDoBk2CEL.jpg",
+      "categoria": "mario bros",
+      "name": "Peluche yoshi 7.6 pulgadas",
+      "price": "10 USD",
+      "descripcion": "NDSNHFD",
+      "id": "2bb08f75-19dc-4f31-b95b-05dde00e6c0b"
     }
   ],
   "products-board_game": [
@@ -165,6 +213,80 @@
       "email": "abie@djdjd",
       "password": "jss",
       "id": "744209c4-1b80-4285-a36e-6d0bb409c184"
+    },
+    {
+      "email": "eliiza.023@gmail.com",
+      "password": "jjewasd",
+      "id": "477119f3-7b27-4e61-ad17-0102bc7017fb"
+    },
+    {
+      "email": "jjes@yahoo.com.co",
+      "password": "djwjhdw",
+      "id": "d6e57892-5e9a-4146-9b51-eb1787f1029c"
+    },
+    {
+      "email": "snsn@gmail.com",
+      "password": "jwjsj",
+      "id": "9d5a1e6e-06ba-473f-9b00-f460971c3097"
+    },
+    {
+      "email": "es@yahoo.com.co",
+      "password": "hjed",
+      "id": "b4e1caef-e755-42a0-ab60-5acdc05e1b38"
+    },
+    {
+      "email": "hdhhd@gmail.com",
+      "password": "hhdhdhdhd",
+      "id": "99891aa2-f975-4fad-9833-1b8ffcd35996"
+    },
+    {
+      "email": "lizaa@gmail.com",
+      "id": "aa105f22-221f-4451-82ac-898af0a7a8cf"
+    },
+    {
+      "email": "nebyu@gmail.com",
+      "password": "hxhdh",
+      "id": "af15c034-9b96-40ee-8341-0f82cc9f823c"
+    },
+    {
+      "email": "nebyu@gmail.com",
+      "password": "hshs",
+      "id": "e216b094-b889-4673-a698-581ecbab3d60"
+    },
+    {
+      "email": "lizaaaaaaaaaa@gmail.com",
+      "password": "hhdhd",
+      "id": "f579acbf-d65b-4dec-929c-a8b12266bbae"
+    },
+    {
+      "email": "liziaasssa@gmail.com",
+      "password": "hhdhd",
+      "id": "8464af1d-db97-4eb8-85d4-db173e3c5f5c"
+    },
+    {
+      "email": "asdf@gasdf.acdo",
+      "password": "asdfgfdsa",
+      "id": "6ebe68ba-81fc-4550-a523-60038179c0b1"
+    },
+    {
+      "email": "fdsa@asdf.acads",
+      "password": "124412",
+      "id": "80261166-90bb-4c19-b0f4-77dc5d977c4f"
+    },
+    {
+      "email": "1234@123.acasd",
+      "password": "123454321",
+      "id": "561d1182-03e4-458b-9223-b53b3052256c"
+    },
+    {
+      "email": "767657@232.ci",
+      "password": "123",
+      "id": "8389c3ce-2e7c-42e5-8c32-77b0d08083da"
+    },
+    {
+      "email": "12345@123.acasd",
+      "password": "1234asdf",
+      "id": "761a702c-04ce-4ad7-b8a4-efb6e44bd821"
     }
   ]
 }

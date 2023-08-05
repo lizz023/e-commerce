@@ -33,6 +33,13 @@ app.get('/login', (req, res) => {
   });
 })
 
+app.get('/singup', (req, res) => {
+  res.render('singup',{
+    nombre: 'Elizabeth Restrepo',
+    titulo: 'E-commerce'
+  });
+})
+
 app.get('/products-mario_bros', (req, res) => {
   res.render('products-mario_bros',{
     nombre: 'Elizabeth Restrepo',
@@ -70,6 +77,10 @@ app.get('/update-products', (req, res) => {
 
 app.get('/login', (req, res) => {
   res.sendFile( __dirname + '/public/login.html');
+})
+
+app.get('/singup', (req, res) => {
+  res.sendFile( __dirname + '/public/singup.html');
 })
 
 app.get('/products-mario_bros', (req, res) => {
