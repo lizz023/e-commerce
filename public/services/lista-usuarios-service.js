@@ -3,11 +3,23 @@
 const listaUsuarios = () => 
     fetch("http://localhost:3000/usuarios").then(respuesta =>respuesta.json());
 
+const VerificarUsuario = (email, password) =>{
+    return listaUsuarios().then(users => {
+        return new Promise((resolve, reject) => {
+            if(!users.some(user => user.email === email && user.password === password)) {
+                reject(`Usuario o contraseña incorrectos`);
+            } else{
+                resolve("Bienvenido");
+            }
+        });
+    });
+}
+    
 const crearUsuario = (email, password) =>{
     return listaUsuarios().then(users => {
         return new Promise((resolve, reject) => {
             if(users.some(user => user.email === email)) {
-                reject("usuario ya existe");
+                reject(`El usuario ${email} ya se encuentra registrado`);
             } else{
                 resolve(fetch("http://localhost:3000/usuarios",{
                     method: "POST",
@@ -23,6 +35,7 @@ const crearUsuario = (email, password) =>{
 
 
 export const clientServices = {
+    crearUsuario,
     listaUsuarios,
-    crearUsuario
+    VerificarUsuario
 }

@@ -1,13 +1,13 @@
 
 //GET
-const productsMario = () =>
-    fetch("http://localhost:3000/products-mario_bros").then(respuesta => respuesta.json());
+const products = (endpoint) =>
+    fetch("http://localhost:3000/" + endpoint).then(respuesta => respuesta.json());
 
 
 //POST
 
-const createProducts = (imgURL,categoria,name,price,descripcion) => {
-    return fetch(`http://localhost:3000/products-mario_bros`, {
+const createProducts = (imgURL,categoria,name,price,descripcion, endpoint) => {
+    return fetch(`http://localhost:3000/${endpoint}`, {
         method: "POST",
         headers: {
             "content-type": "application/json"
@@ -19,24 +19,23 @@ const createProducts = (imgURL,categoria,name,price,descripcion) => {
             return respuesta.body
         }
     })
-    
 }
 
-const eliminarProducto = (id) =>{
+const eliminarProducto = (id, endpoint) =>{
     console.log("Eliminar a ---> ", id)
-    return fetch(`http://localhost:3000/products-mario_bros/${id}`, {
+    return fetch(`http://localhost:3000/${endpoint}/${id}`, {
         method: "DELETE",
     })
 }
 
-const updateProducto = (id) =>{
-    return fetch(`http://localhost:3000/products-mario_bros/${id}`).then((respuesta) => 
+const updateProducto = (id, endpoint) =>{
+    return fetch(`http://localhost:3000/${endpoint}/${id}`).then((respuesta) => 
     respuesta.json()
     );
 }
 
-const productosActualizados = (imgURL, categoria, name, price, descripcion, id) => {
-    return fetch(`http://localhost:3000/products-mario_bros/${id}`,{
+const productosActualizados = (imgURL, categoria, name, price, descripcion, id, endpoint) => {
+    return fetch(`http://localhost:3000/${endpoint}/${id}`,{
         method: "PUT",
         headers: {
             "content-type": "application/json"
@@ -47,8 +46,8 @@ const productosActualizados = (imgURL, categoria, name, price, descripcion, id) 
     .catch((err) => console.log(err));
 }
 
-export const productService = {
-    productsMario,
+export const productsGenericService = {
+    products,
     createProducts,
     eliminarProducto,
     updateProducto,

@@ -3,6 +3,8 @@ require('dotenv').config();
 const express = require('express');
 const hbs = require('hbs');
 
+const bcryptjs = require("bcryptjs")
+
 const app = express()
 const port = 8080;
 

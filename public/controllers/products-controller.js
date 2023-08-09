@@ -1,5 +1,6 @@
-import { productService } from "../services/products_mario-service.js";
+
 import { initCarousels } from "../js/carrusel.js";
+import { productsGenericService } from "../services/products-service.js";
 
 
 //POST --> CREATE
@@ -18,16 +19,27 @@ const newProduct = (name, imgURL, price, id ) =>{
     card.innerHTML = container;
     return card;
 }
-const productos = document.querySelector("[data-mario_bros] > div")
+const productos = document.querySelector("[data-mario_bros] > div");
+// const productosConsola = document.querySelector("[data-video_game] > div");
 
-productService.productsMario().then((data) => {
-
+//Productos Mario Bros
+productsGenericService.products("products-mario_bros").then((data) => {
         data.forEach(({name, imgURL, price, id}) => {
             const newLinea = newProduct(name, imgURL, price, id)
             productos.appendChild(newLinea);
         });
         productos.classList.add("your-class")
         initCarousels();
+}).catch((error) => console.log(error))
+
+// Productos Consola
+productsGenericService.products("products-video_game").then((data) => {
+    data.forEach(({name, imgURL, price, id}) => {
+        const newLinea = newProduct(name, imgURL, price, id)
+        productosConsola.appendChild(newLinea);
+    });
+    productosConsola.classList.add("your-class")
+    initCarousels();
 }).catch((error) => console.log(error))
 
 

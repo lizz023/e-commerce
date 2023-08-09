@@ -1,4 +1,6 @@
-import { productService } from "../services/products_mario-service.js";
+import { productsGenericService } from "../services/products-service.js";
+
+
 
 const Product = (name, imgURL, price, id ) =>{
 
@@ -15,7 +17,6 @@ const Product = (name, imgURL, price, id ) =>{
             <a class="controls__edit"  href="/update-products?id=${id}">
                 <i class="icon-edit_black_24dp-1"></i>
             </a>
-        
         </div>
         <h4>${price}</h4>
         <p>${name}</p>
@@ -28,7 +29,8 @@ const Product = (name, imgURL, price, id ) =>{
     const btn = cardMario.querySelector("button");
     btn.addEventListener("click", () => {
         const id = btn.id;
-        productService.eliminarProducto(id).then((respuesta) =>{
+        productsGenericService.eliminarProducto(id, "products-mario_bros").then((respuesta) =>{
+            window.location.href = "/products-mario_bros"
             console.log(respuesta);
         }).catch(err => alert("Ocurrio un error eliza"))
     });
@@ -38,11 +40,10 @@ const Product = (name, imgURL, price, id ) =>{
 
 const targetas = document.querySelector("[data-mario]")
 
-productService.productsMario().then((data) => {
+productsGenericService.products("products-mario_bros").then((data) => {
     data.forEach(({name, imgURL, price, id}) => {
         const editProducts = Product(name, imgURL, price, id)
         targetas.appendChild(editProducts)
     });
-    targetas.classList.add("your-class")
-    initCarousels();
+    
 }).catch((error) => console.log(error))

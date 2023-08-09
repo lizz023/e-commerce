@@ -121,6 +121,88 @@
       "id": "2bb08f75-19dc-4f31-b95b-05dde00e6c0b"
     }
   ],
+  "products-video_game": [
+    {
+      "imgURL": "assets/img/cards/cards-consola/41W5CxtCsgL.webp",
+      "categoria": "consolas",
+      "name": "Nintendo Switch with Neon Blue and Red",
+      "price": "215 USD",
+      "descripcion": "jjjd",
+      "id": "0a8f2153-2814-4162-a63f-f6efbae622c5"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-consola/51OnenSqevL.jpg",
+      "categoria": "consolas",
+      "name": "Play Statio PS4 black",
+      "price": "350 USD",
+      "descripcion": "hdfbdndf",
+      "id": "6dcc6e16-2fc8-425d-996f-d30000a98dfb"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-consola/61VeVFjD0hL.jpg",
+      "categoria": "consolas",
+      "name": "Consola de juegos, bateria incorporada",
+      "price": "160 USD",
+      "descripcion": "JCDDHDH",
+      "id": "27bfdbc1-d76d-4d1a-89f7-b308f54efa29"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-consola/61pETE6v4vL.jpg",
+      "categoria": "consolas",
+      "name": "Sony play station 2 console black",
+      "price": "150 USD",
+      "descripcion": "jdjdj",
+      "id": "defb4631-4e60-4f71-b7a3-36616a6e1d1c"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-consola/61hczff9SjL.jpg",
+      "categoria": "consolas",
+      "name": "RG405M Retro Game Player Android 12",
+      "price": "187 USD",
+      "descripcion": "KFJFJFJ",
+      "id": "bbb92686-51a3-47a3-b434-ca14fedfeec6"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-consola/71unFU3zqpL.jpg",
+      "categoria": "consolas",
+      "name": "Consola de juegos portatil 500 juegos",
+      "price": "30 USD",
+      "descripcion": "KFKFFK",
+      "id": "6b81761d-31c3-4d0c-a391-6b85a0574ad8"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-consola/61gndBOP9zS.jpg",
+      "categoria": "consolas",
+      "name": "Nintendo Switch Lite - Blue",
+      "price": "167 USD",
+      "descripcion": "KFJFJF",
+      "id": "bdda1ba4-a97d-42ad-83ae-d38bd68c687c"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-consola/61RVryJZMEL.jpg",
+      "categoria": "consolas",
+      "name": "Nintendo eShop Gift Card",
+      "price": "10 USD",
+      "descripcion": "JXJDJ",
+      "id": "26f10f49-7f3d-4b6e-bff0-663da9565064"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-consola/71YNm35y1OL.jpg",
+      "categoria": "consolas",
+      "name": "Controlador inhalambrico para Switch",
+      "price": "3O USD",
+      "descripcion": "DJDJD",
+      "id": "2c4c040e-e5cc-4305-afdd-413d4fdad706"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-consola/71ZKhvqOD4L.jpg",
+      "categoria": "consolas",
+      "name": "Controlador para interruptor",
+      "price": "45 USD",
+      "descripcion": "DJDJD",
+      "id": "6fac0cb3-00b2-433c-af57-b60f84d11c99"
+    }
+  ],
   "products-board_game": [
     {
       "name": "Monopoly the super mario bros",
@@ -287,6 +369,41 @@
       "email": "12345@123.acasd",
       "password": "1234asdf",
       "id": "761a702c-04ce-4ad7-b8a4-efb6e44bd821"
+    },
+    {
+      "email": "abie@gmail.co",
+      "password": "hshs",
+      "id": "4a8b2b7e-4236-4178-adbf-abfaaba1e38b"
+    },
+    {
+      "email": "abie@djdjd.com",
+      "password": "jdjdj",
+      "id": "b784c521-340c-44f0-bd49-1ee108a221a8"
+    },
+    {
+      "email": "neiroandres@yahoo.com.co",
+      "password": "jzjz",
+      "id": "881ce4f3-0fa4-4e74-92b6-b55287e9a7f1"
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "jjsj",
+      "id": "1bec81b5-4227-4813-b559-fdd09c11ff11"
+    },
+    {
+      "email": "elizanebuabbie@gmail.com",
+      "password": "hahaha",
+      "id": "0ac9ff70-0cc0-44e0-9f67-003c96fab5fd"
+    },
+    {
+      "email": "abielinda@gmail.com",
+      "password": "jsjdj",
+      "id": "925c61aa-48ef-4dfc-a51c-e6917b0f4b6d"
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "id": "1bbd32b9-9c16-4183-b798-0f88a4433bf3"
     }
   ]
 }

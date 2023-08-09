@@ -12,15 +12,5 @@ singup && singup.addEventListener("submit", (e) => {
                 alert ("Usuario creado");
                 window.location.href = "/login"
             }).catch(err => alert(err));
-    // const usuariosRegistrados = db.find((usuario) => usuario.email === email);
-    // console.log(user);
-
- 
-    // if(usuariosRegistrados){
-    //     return alert ("El usuario ya se encuentra registrado")
-    // }else{
-        
-    // }
    
-
 })

@@ -1,5 +1,5 @@
 
-import { productService } from "../services/products_mario-service.js"
+import { productsGenericService } from "../services/products-service.js"
 
 const form = document.querySelector("[data-agregar-products]")
 
@@ -13,12 +13,18 @@ if(form){
         const price = document.querySelector('[data-price]').value
         const descripcion = document.querySelector('[data-descripcion]').value
         
-
-        productService.createProducts(imgURL,categoria,name,price,descripcion)
+        productsGenericService.createProducts(imgURL,categoria,name,price,descripcion,"products-mario_bros")
         .then(respuesta => {
             window.location.href = "/"
             console.log(respuesta);
         }).catch((err) => console.log(err));
+        
+        // productsGenericService.createProducts(imgURL,categoria,name,price,descripcion,"products-video_game")
+        // .then(respuesta => {
+        //     window.location.href = "/"
+        //     console.log(respuesta);
+        // }).catch((err) => console.log(err));
+
     })
     
 }

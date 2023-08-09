@@ -1,5 +1,6 @@
 
-import { productService } from "../services/products_mario-service.js"
+import { productsGenericService } from "../services/products-service.js"
+
 
 const form = document.querySelector("[data-link]")
 
@@ -14,11 +15,12 @@ if(form){
         const descripcion = document.querySelector('[data-descripcion]').value
         
 
-        productService.productsMario(imgURL,categoria,name,price,descripcion)
+        productsGenericService.products(imgURL,categoria,name,price,descripcion ,"products-mario_bros")
         .then(respuesta => {
             window.location.href = "/products-mario_bros"
             console.log(respuesta);
         }).catch((err) => console.log(err));
+
     })
     
 }

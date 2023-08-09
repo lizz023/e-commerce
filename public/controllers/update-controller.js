@@ -1,4 +1,5 @@
-import { productService } from "../services/products_mario-service.js";
+import { productsGenericService } from "../services/products-service.js";
+
 
 const formulario = document.querySelector("[data-update]")
 
@@ -17,7 +18,7 @@ const obtenerInformacion = async() => {
     const descripcion = document.querySelector("[data-descripcion]")
 
     try {  
-        const datos = await productService.updateProducto(id)
+        const datos = await productsGenericService.updateProducto(id, "products-mario_bros" )
 
         if(datos.imgURL && datos.categoria && datos.name && datos.price && datos.descripcion ){
             console.log(datos)
@@ -32,9 +33,7 @@ const obtenerInformacion = async() => {
         
     } catch (error) {
         console.log("hubo un error")
-    }
-
-            
+    }          
 }
 
 obtenerInformacion()
@@ -52,7 +51,7 @@ formulario && formulario.addEventListener("submit", (evento) => {
     const descripcion = document.querySelector("[data-descripcion]").value
 
     console.log(imgURL,categoria,name,price,descripcion)
-    productService.productosActualizados(imgURL,categoria,name,price,descripcion, id).then (() =>{
+    productsGenericService.productosActualizados(imgURL,categoria,name,price,descripcion, id ,"products-mario_bros").then (() =>{
         window.location.href = "/products-mario_bros"
     })
 
