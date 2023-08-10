@@ -4,7 +4,7 @@
       "imgURL": "assets/img/cards/cards-mario/1234.jpg",
       "categoria": "mario bros",
       "name": "Sating 3 piezas mario bros",
-      "price": "13 USD",
+      "price": "13",
       "descripcion": "JSJSIIFS",
       "id": "9e55a7fe-9146-446b-8367-05cca3794a6f"
     },
@@ -12,7 +12,7 @@
       "imgURL": "assets/img/cards/cards-mario/5678.jpg",
       "categoria": "mario bros",
       "name": "Figura de acción Bowser de 7 pulgadas",
-      "price": "28 USD",
+      "price": "28",
       "descripcion": "JHSJHZ",
       "id": "b8ef58e3-0f51-4f48-8fc4-79fcd213a41b"
     },
@@ -20,7 +20,7 @@
       "imgURL": "assets/img/cards/cards-mario/71WHgAryJaL.jpg",
       "categoria": "mario bros",
       "name": "Paquete de 6 figuras de acción de Mario Toys",
-      "price": "31 USD",
+      "price": "31",
       "descripcion": "SAJS",
       "id": "2ee1c79b-1047-4e33-96a3-0effe27cbac3"
     },
@@ -28,7 +28,7 @@
       "imgURL": "assets/img/cards/cards-mario/71+uiRV7lGL.jpg",
       "categoria": "mario bros",
       "name": "Figura de acción con accesorio de varita",
-      "price": "18 USD",
+      "price": "18",
       "descripcion": "JDHSDHJ",
       "id": "17946cb3-f932-456b-b3eb-207c4ff3df84"
     },
@@ -36,7 +36,7 @@
       "imgURL": "assets/img/cards/cards-mario/51rB9mrzO5L.jpg",
       "categoria": "mario bros",
       "name": "Figura de acción Boo World of Nintendo",
-      "price": "14 USD",
+      "price": "14",
       "descripcion": "CDJWSUJ",
       "id": "0a1012de-b78a-4fbb-af45-c61f5940d172"
     },
@@ -44,7 +44,7 @@
       "imgURL": "assets/img/cards/cards-mario/81CkgXlS8XL.jpg",
       "categoria": "mario bros",
       "name": "Radio juguete de largo alcance",
-      "price": "20 USD",
+      "price": "20",
       "descripcion": "IWQSHEWHWE",
       "id": "4fe44423-53c7-4cf6-b9df-40be1f0db70d"
     },
@@ -52,7 +52,7 @@
       "imgURL": "assets/img/cards/cards-mario/81jEBlaSWQL.jpg",
       "categoria": "mario bros",
       "name": "Princesa Peach con paraguas",
-      "price": "22 USD",
+      "price": "22",
       "descripcion": "IJSDUFEUYS",
       "id": "7a79a3b6-225a-44b9-a290-cdff5878febd"
     },
@@ -60,7 +60,7 @@
       "imgURL": "assets/img/cards/cards-mario/71LlfjTJiRL.jpg",
       "categoria": "mario bros",
       "name": "Figura de Mario Bros",
-      "price": "10 USD",
+      "price": "10",
       "descripcion": "SHWSH",
       "id": "a95fab81-236e-4889-8466-7910d9b7bf88"
     },
@@ -68,7 +68,7 @@
       "imgURL": "assets/img/cards/cards-mario/61JDcd02yCL.jpg",
       "categoria": "mario bros",
       "name": "Yoshi con accesorio de sarten",
-      "price": "15 USD",
+      "price": "15",
       "descripcion": "IWUWE",
       "id": "a0ada907-2582-4071-bd39-49208a57a8dd"
     },
@@ -76,7 +76,7 @@
       "imgURL": "assets/img/cards/cards-mario/41CKAeCVJTL.jpg",
       "categoria": "mario bros",
       "name": "Bomba de juquete coleccionable",
-      "price": "35 USD",
+      "price": "35",
       "descripcion": "JSAJSUHS",
       "id": "bf7ace8c-2b06-4075-a284-679175083ec4"
     },
@@ -84,7 +84,7 @@
       "imgURL": "assets/img/cards/cards-mario/61w-X9AZ.jpg",
       "categoria": "mario bros",
       "name": "Luz nocturna de ilusión",
-      "price": "19 USD",
+      "price": "19",
       "descripcion": "UDUEUE",
       "id": "52c7ad12-d31f-4e51-982c-e7ed69d6c2c5"
     },
@@ -92,7 +92,7 @@
       "imgURL": "assets/img/cards/cards-mario/71W5posa5pL.jpg",
       "categoria": "mario bros",
       "name": "48 piezas de mini juguetes Mario Bros",
-      "price": "34 USD",
+      "price": "34",
       "descripcion": "JSJEJDFJ",
       "id": "1cd3678f-45b8-4906-b926-00d953ae6c10"
     },
@@ -100,7 +100,7 @@
       "imgURL": "assets/img/cards/cards-mario/51ZLlIuSGGL.jpg",
       "categoria": "mario bros",
       "name": "5 piezas de mini juguetes Mario Bros",
-      "price": "40 USD ",
+      "price": "40",
       "descripcion": "IJEHCXNSX",
       "id": "f7aebfd5-290e-4463-9c71-aaa137c42575"
     },
@@ -108,7 +108,7 @@
       "imgURL": "assets/img/cards/cards-mario/71b3nnP-N0L.jpg",
       "categoria": "mario bros",
       "name": "Peluche Mario y luigi",
-      "price": "29 USD",
+      "price": "29",
       "descripcion": "JDJCNC",
       "id": "3abfdc35-55d6-4b67-8a62-4cb859948ab1"
     },
@@ -116,9 +116,17 @@
       "imgURL": "assets/img/cards/cards-mario/71JDoBk2CEL.jpg",
       "categoria": "mario bros",
       "name": "Peluche yoshi 7.6 pulgadas",
-      "price": "10 USD",
+      "price": "10",
       "descripcion": "NDSNHFD",
       "id": "2bb08f75-19dc-4f31-b95b-05dde00e6c0b"
+    },
+    {
+      "imgURL": "assets/img/cards/cards-mario/51ZLlIuSGGL.jpg",
+      "categoria": "products-mario_bros",
+      "name": "Elizabeth",
+      "price": "40",
+      "descripcion": "jxshdsh",
+      "id": "4d28acce-a18c-469c-afea-18f882d79daa"
     }
   ],
   "products-video_game": [
@@ -126,7 +134,7 @@
       "imgURL": "assets/img/cards/cards-consola/41W5CxtCsgL.webp",
       "categoria": "consolas",
       "name": "Nintendo Switch with Neon Blue and Red",
-      "price": "215 USD",
+      "price": "215",
       "descripcion": "jjjd",
       "id": "0a8f2153-2814-4162-a63f-f6efbae622c5"
     },
@@ -134,7 +142,7 @@
       "imgURL": "assets/img/cards/cards-consola/51OnenSqevL.jpg",
       "categoria": "consolas",
       "name": "Play Statio PS4 black",
-      "price": "350 USD",
+      "price": "350",
       "descripcion": "hdfbdndf",
       "id": "6dcc6e16-2fc8-425d-996f-d30000a98dfb"
     },
@@ -142,7 +150,7 @@
       "imgURL": "assets/img/cards/cards-consola/61VeVFjD0hL.jpg",
       "categoria": "consolas",
       "name": "Consola de juegos, bateria incorporada",
-      "price": "160 USD",
+      "price": "160",
       "descripcion": "JCDDHDH",
       "id": "27bfdbc1-d76d-4d1a-89f7-b308f54efa29"
     },
@@ -150,15 +158,15 @@
       "imgURL": "assets/img/cards/cards-consola/61pETE6v4vL.jpg",
       "categoria": "consolas",
       "name": "Sony play station 2 console black",
-      "price": "150 USD",
-      "descripcion": "jdjdj",
+      "price": "150",
+      "descripcion": "nd",
       "id": "defb4631-4e60-4f71-b7a3-36616a6e1d1c"
     },
     {
       "imgURL": "assets/img/cards/cards-consola/61hczff9SjL.jpg",
       "categoria": "consolas",
       "name": "RG405M Retro Game Player Android 12",
-      "price": "187 USD",
+      "price": "187",
       "descripcion": "KFJFJFJ",
       "id": "bbb92686-51a3-47a3-b434-ca14fedfeec6"
     },
@@ -166,7 +174,7 @@
       "imgURL": "assets/img/cards/cards-consola/71unFU3zqpL.jpg",
       "categoria": "consolas",
       "name": "Consola de juegos portatil 500 juegos",
-      "price": "30 USD",
+      "price": "30",
       "descripcion": "KFKFFK",
       "id": "6b81761d-31c3-4d0c-a391-6b85a0574ad8"
     },
@@ -174,7 +182,7 @@
       "imgURL": "assets/img/cards/cards-consola/61gndBOP9zS.jpg",
       "categoria": "consolas",
       "name": "Nintendo Switch Lite - Blue",
-      "price": "167 USD",
+      "price": "167",
       "descripcion": "KFJFJF",
       "id": "bdda1ba4-a97d-42ad-83ae-d38bd68c687c"
     },
@@ -182,87 +190,107 @@
       "imgURL": "assets/img/cards/cards-consola/61RVryJZMEL.jpg",
       "categoria": "consolas",
       "name": "Nintendo eShop Gift Card",
-      "price": "10 USD",
+      "price": "10",
       "descripcion": "JXJDJ",
       "id": "26f10f49-7f3d-4b6e-bff0-663da9565064"
     },
     {
       "imgURL": "assets/img/cards/cards-consola/71YNm35y1OL.jpg",
       "categoria": "consolas",
-      "name": "Controlador inhalambrico para Switch",
-      "price": "3O USD",
+      "name": "Controlador inhalambrico Switch",
+      "price": "3O",
       "descripcion": "DJDJD",
       "id": "2c4c040e-e5cc-4305-afdd-413d4fdad706"
-    },
-    {
-      "imgURL": "assets/img/cards/cards-consola/71ZKhvqOD4L.jpg",
-      "categoria": "consolas",
-      "name": "Controlador para interruptor",
-      "price": "45 USD",
-      "descripcion": "DJDJD",
-      "id": "6fac0cb3-00b2-433c-af57-b60f84d11c99"
     }
   ],
   "products-board_game": [
     {
-      "name": "Monopoly the super mario bros",
       "imgURL": "assets/img/cards/cards-juegos/81l3EHcpx.jpg",
-      "price": "15 USD",
-      "id": 26
+      "categoria": "products-board_game",
+      "name": "Monopoly the super mario bros",
+      "price": "15",
+      "descripcion": "jjfhbcbvbvbv",
+      "id": "a6451c2e-75b5-490e-b4ae-3bedcfa9629d"
     },
     {
-      "name": "Torre de equilibrio",
       "imgURL": "assets/img/cards/cards-juegos/911SqgtiaCL.jpg",
-      "price": "13 USD",
-      "id": 27
+      "categoria": "products-board_game",
+      "name": "Torre de equilibrio",
+      "price": "13",
+      "descripcion": "kffkffjfj",
+      "id": "10d34575-47a0-4956-9f94-753f004ac103"
     },
     {
-      "name": "Juego de la vida edicion super mario bros",
       "imgURL": "assets/img/cards/cards-juegos/61uaDJP8RVL.jpg",
-      "price": "22 USD",
-      "id": 28
+      "categoria": "products-board_game",
+      "name": "Juego de la vida edicion super mario",
+      "price": "22",
+      "descripcion": "jjdjjdjd",
+      "id": "d046b988-7f85-4bd1-8465-3711318e3738"
     },
     {
-      "name": "Pop Up Super Mario",
       "imgURL": "assets/img/cards/cards-juegos/91X927mjSHL.jpg",
-      "price": "13 USD",
-      "id": 29
+      "categoria": "products-board_game",
+      "name": "Pop Up Super Mario",
+      "price": "13",
+      "descripcion": "kkkk",
+      "id": "11c0ba63-c383-4a6f-95aa-7ee3ed73a2e2"
     },
     {
-      "name": "USAOPOLY- Juego de damas Super Mario",
       "imgURL": "assets/img/cards/cards-juegos/61fw-NBsv6L.jpg",
-      "price": "21 USD",
-      "id": 30
+      "categoria": "products-board_game",
+      "name": "USAOPOLY- Juego de damas Super Mario",
+      "price": "21",
+      "descripcion": "JFJJD",
+      "id": "2f0e96ee-da5d-401f-b219-fac06d8f6f38"
     },
     {
-      "name": "Juego de memoria Super Mario Brothers",
       "imgURL": "assets/img/cards/cards-juegos/71ZayoGQh8L.jpg",
-      "price": "25 USD",
-      "id": 31
+      "categoria": "products-board_game",
+      "name": "Juego de memoria Super Mario Brothers",
+      "price": "25",
+      "descripcion": "KDJFJRF",
+      "id": "e1ffdbaa-88e5-419c-a054-6ef95ac58c40"
     },
     {
-      "name": "UNO Juego de cartas Super Mario",
       "imgURL": "assets/img/cards/cards-juegos/81Ql95DpYJL.jpg",
-      "price": "10 USD",
-      "id": 32
+      "categoria": "products-board_game",
+      "name": "UNO Juego de cartas Super Mario",
+      "price": "10",
+      "descripcion": "JDJDJJFD",
+      "id": "6ce083a8-f571-4a96-b956-3e74cf4cf93e"
     },
     {
-      "name": "Planta piraña escape Super Mario",
       "imgURL": "assets/img/cards/cards-juegos/81lcVW+3j1L.jpg",
-      "price": "23 USD",
-      "id": 33
+      "categoria": "products-board_game",
+      "name": "Planta piraña escape Super Mario",
+      "price": "13",
+      "descripcion": "JNDJJRJNCNX",
+      "id": "57eb7bbd-21e1-4706-a9dc-b29051d312e5"
     },
     {
-      "name": "Juego de pares de fotos",
       "imgURL": "assets/img/cards/cards-juegos/71V8uKRau8L.jpg",
-      "price": "36 USD",
-      "id": 34
+      "categoria": "products-board_game",
+      "name": "Juego de pares de fotos",
+      "price": "23",
+      "descripcion": "MXXNXN",
+      "id": "62c1790c-0a80-4dd5-932e-5bfddaf59ced"
     },
     {
-      "name": "Tic Tae Toe",
       "imgURL": "assets/img/cards/cards-juegos/71RNHGRHGLL.jpg",
-      "price": "36 USD",
-      "id": 35
+      "categoria": "products-board_game",
+      "name": "Tic Tae Toe",
+      "price": "36",
+      "descripcion": "MCNCNCN",
+      "id": "45dafa60-4cab-4b32-9896-dcaf0ed7bdaa"
+    },
+    {
+      "imgURL": "https://m.media-amazon.com/images/I/61kJFmcwEWL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+      "categoria": "products-board_game",
+      "name": "prueba",
+      "price": "23",
+      "descripcion": "jss",
+      "id": "fa4f1dd0-8ea0-4fb6-b940-8cfe435cee61"
     }
   ],
   "usuarios": [

@@ -18,9 +18,15 @@
                 </div>
 
                 <div class="input-container">
-                    <input name="categoria" id="categoria" class="input" type="text" placeholder="Categoria" required data-categoria="">
+                    {{!-- <input name="categoria" id="categoria" class="input" type="text" placeholder="Categoria" required data-categoria="">
                     <label class="input-label" for="categoria">Categoria</label>
-                    <span class="input-message-error">Este campo no es valido</span>
+                    <span class="input-message-error">Este campo no es valido</span> --}}
+                    <select class="input" name="categoria" id="categoria" placeholder ="Categoria" data-categoria="">
+                        <option value="products-mario_bros">Seleccione una categoria</option>
+                        <option value="products-mario_bros">Mario Bros</option>
+                        <option value="products-video_game">Consolas</option>
+                        <option value="products-board_game">Juegos de mesa</option>
+                    </select>
                 </div>
 
                 <div class="input-container">
@@ -30,7 +36,7 @@
                 </div>
 
                 <div class="input-container">
-                    <input name="precio" id="precio" class="input" type="text" placeholder="Precio de producto" required data-price="">
+                    <input name="precio" id="precio" class="input" type="number" placeholder="Precio de producto" required data-price="">
                     <label class="input-label" for="precio">Precio de producto</label>
                     <span class="input-message-error">Este campo no es valido</span>
                 </div>
@@ -50,9 +56,6 @@
 
     {{!-- //Footer --}}
     {{> footer}}
-
-    <script type="module" src="../controllers/crear-products-controlles.js"></script>
-
     
 </body>
 </html>

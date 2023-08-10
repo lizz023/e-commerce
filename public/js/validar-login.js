@@ -18,11 +18,3 @@ const loguear = async() => {
         alert("Datos incorrectos")
     }
 }
-
-
-// const login = async (email, password) => {
-//     const respuesta = await fetch('http://localhost:3000/usuarios');
-//     const usuarios = await respuesta.json();
-//     const usuarioEncontrado = usuarios.find((usuario) => usuario.email === email && usuario.password === password);
-//     return { autenticado: !!usuarioEncontrado };
-// };

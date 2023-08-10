@@ -1,7 +1,5 @@
 import { productsGenericService } from "../services/products-service.js";
 
-
-
 const Product = (name, imgURL, price, id ) =>{
 
     const cardMario = document.createElement("div");
@@ -18,12 +16,11 @@ const Product = (name, imgURL, price, id ) =>{
                 <i class="icon-edit_black_24dp-1"></i>
             </a>
         </div>
-        <h4>${price}</h4>
+        <h4>${price} USD</h4>
         <p>${name}</p>
         <a href="${id}">Ver producto</a>
         
     </div>`
-
 
     cardMario.innerHTML = container;
     const btn = cardMario.querySelector("button");
@@ -31,6 +28,22 @@ const Product = (name, imgURL, price, id ) =>{
         const id = btn.id;
         productsGenericService.eliminarProducto(id, "products-mario_bros").then((respuesta) =>{
             window.location.href = "/products-mario_bros"
+            console.log(respuesta);
+        }).catch(err => alert("Ocurrio un error eliza"))
+    });
+
+    btn.addEventListener("click", () => {
+        const id = btn.id;
+        productsGenericService.eliminarProducto(id, "products-video_game").then((respuesta) =>{
+            window.location.href = "/products-video_game"
+            console.log(respuesta);
+        }).catch(err => alert("Ocurrio un error eliza"))
+    });
+
+    btn.addEventListener("click", () => {
+        const id = btn.id;
+        productsGenericService.eliminarProducto(id, "products-board_game").then((respuesta) =>{
+            window.location.href = "/products-board_game"
             console.log(respuesta);
         }).catch(err => alert("Ocurrio un error eliza"))
     });
@@ -45,5 +58,24 @@ productsGenericService.products("products-mario_bros").then((data) => {
         const editProducts = Product(name, imgURL, price, id)
         targetas.appendChild(editProducts)
     });
-    
 }).catch((error) => console.log(error))
+
+
+const nintento = document.querySelector("[data-nintendo]")
+
+productsGenericService.products("products-video_game").then((data) => {
+    data.forEach(({name, imgURL, price, id}) => {
+        const editProducts = Product(name, imgURL, price, id)
+        nintento.appendChild(editProducts)
+    });
+}).catch((error) => console.log(error))
+
+const gameBoard = document.querySelector("[data-gameBoard]")
+
+productsGenericService.products("products-board_game").then((data) => {
+    data.forEach(({name, imgURL, price, id}) => {
+        const editProducts = Product(name, imgURL, price, id)
+        gameBoard.appendChild(editProducts)
+    });
+}).catch((error) => console.log(error))
+

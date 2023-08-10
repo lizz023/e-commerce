@@ -1,7 +1,7 @@
 $(document).ready(() => initCarousels());
 
 export const initCarousels = () => {
-  $('.your-class').slick({
+  $('.your-class:not(.slick-initialized)').slick({
     dots: true,
     infinite: false,
     speed: 300,
