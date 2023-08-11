@@ -46,6 +46,7 @@ const productosActualizados = (imgURL, categoria, name, price, descripcion, id, 
     .catch((err) => console.log(err));
 }
 
+
 export const productsGenericService = {
     products,
     createProducts,
