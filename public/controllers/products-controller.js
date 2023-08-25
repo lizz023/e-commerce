@@ -4,12 +4,12 @@ import { productsGenericService } from "../services/products-service.js";
 
 
 //POST --> CREATE
-const newProduct = (name, imgURL, price, id ) =>{
+const newProduct = (name, imgURL, price, id) => {
     const card = document.createElement("div");
     //card.classList.add("card__container", "card__img")
 
     const container =
-    `<div class="card__container">
+        `<div class="card__container">
         <img class="card__img" src="${imgURL}" alt="">
         <h4>${price} USD</h4>
         <p>${name}</p>
@@ -19,41 +19,30 @@ const newProduct = (name, imgURL, price, id ) =>{
     card.innerHTML = container;
     return card;
 }
-const productos = document.querySelector("[data-mario_bros] > div");
+const productosMario = document.querySelector("[data-mario_bros] > div");
+const productosConsola = document.querySelector("[data-video_game] > div");
+const productosJuegos = document.querySelector("[data-board_game] > div");
 
-//Productos Mario Bros
-productsGenericService.products("products-mario_bros").then((data) => {
-        data.forEach(({name, imgURL, price, id}) => {
-            const newLinea = newProduct(name, imgURL, price, id)
-            productos.appendChild(newLinea);
-        });
-        productos.classList.add("your-class")
-        initCarousels();
-}).catch(() => console.log(error))
-
-//Productos Consola
-const productosConsola = document.querySelector("[data-video_game] > div")
-
-productsGenericService.products("products-video_game").then((data) => {
-    data.forEach(({name, imgURL, price, id}) => {
+//Render all products in their categories
+const allProductsCall = productsGenericService.products();
+allProductsCall.then((data) => {
+    data.forEach(({ name, imgURL, price, id, categoria }) => {
         const newLinea = newProduct(name, imgURL, price, id)
-        productosConsola.appendChild(newLinea);
+
+        switch (categoria) {
+            case "products-mario_bros":
+                productosMario.appendChild(newLinea);
+                break;
+            case "products-video_game":
+                productosConsola.appendChild(newLinea);
+                break;
+            case "products-board_game":
+                productosJuegos.appendChild(newLinea);
+                break;
+        }
     });
+    productosMario.classList.add("your-class")
     productosConsola.classList.add("your-class")
-    initCarousels();
-}).catch((error) => console.log(error))
-
-//Productos juegos
-const productosJuegos = document.querySelector("[data-board_game] > div")
-
-productsGenericService.products("products-board_game").then((data) => {
-    data.forEach(({name, imgURL, price, id}) => {
-        const newLinea = newProduct(name, imgURL, price, id)
-        productosJuegos.appendChild(newLinea);
-    });
     productosJuegos.classList.add("your-class")
     initCarousels();
-}).catch((error) => console.log(error))
-
-
-
+}).catch(() => console.log(error));

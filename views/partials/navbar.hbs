@@ -1,14 +1,29 @@
 <nav class="navbar">
     <div class="navbar__container">
-        <img class="navbar__img" src="./assets/img/Logo.svg" alt="">
+        <a href="/">
+            <img class="navbar__img" src="./assets/img/Logo.svg" alt="">
+        </a>
+        
 
-        <form id="search" class="navbar__imput">    
+    <div>
+        <form id="search" class="navbar__input">    
             <input class="navbar__input--container" id="searchInput" type="search" placeholder="¿Qué deseas buscar?">
-            <button type="submit" requerid class="icon-Icone"></button>
+            <button type="submit"target="_blank" requerid class="icon-Icone"></button>
         </form>
+
+        <div class="navbar__resultado" id="resultado" data-filterUserImput="">
+            <ul id="search">
+                <li class="navbar__li"><a href="" class="icon-Icone"></a>mario</li>
+                <li class="navbar__li"><a href="" class="icon-Icone"></a>peach</li>
+                <li class="navbar__li"><a href="" class="icon-Icone"></a>consola</li>
+            </ul>
+        </div>
+
+    </div>
+      
             
         
-        {{#if false}}
+        {{#if true}}
             <a href="/login" class="navbar__button">
                 Login
             </a>

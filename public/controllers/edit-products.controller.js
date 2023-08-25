@@ -14,24 +14,11 @@ form && form.addEventListener("submit", (evento) => {
     const descripcion = document.querySelector('[data-descripcion]').value
     
 
-    productsGenericService.products(imgURL,categoria,name,price,descripcion ,"products-mario_bros")
+    productsGenericService.products(imgURL,categoria,name,price,descripcion)
     .then(respuesta => {
-        window.location.href = "/products-mario_bros"
+        window.location.href = "/"
         console.log(respuesta);
     }).catch((err) => console.log(err));
-
-    productsGenericService.products(imgURL,categoria,name,price,descripcion ,"products-video_game")
-    .then(respuesta => {
-        window.location.href = "/products-video_game"
-        console.log(respuesta);
-    }).catch((err) => console.log(err));
-
-    productsGenericService.products(imgURL,categoria,name,price,descripcion ,"products-board_game")
-    .then(respuesta => {
-        window.location.href = "/products-board_game"
-        console.log(respuesta);
-    }).catch((err) => console.log(err));
-
 
 })
     

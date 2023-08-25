@@ -1,7 +1,7 @@
 
 //Fech api
 const listaUsuarios = () => 
-    fetch("http://localhost:3000/usuarios").then(respuesta =>respuesta.json());
+    fetch("https://64e776dfb0fd9648b78ffd5c.mockapi.io/usuarios").then(respuesta =>respuesta.json());
 
 const VerificarUsuario = (email, password) =>{
     return listaUsuarios().then(users => {
@@ -21,7 +21,7 @@ const crearUsuario = (email, password) =>{
             if(users.some(user => user.email === email)) {
                 reject(`El usuario ${email} ya se encuentra registrado`);
             } else{
-                resolve(fetch("http://localhost:3000/usuarios",{
+                resolve(fetch("https://64e776dfb0fd9648b78ffd5c.mockapi.io/usuarios",{
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"

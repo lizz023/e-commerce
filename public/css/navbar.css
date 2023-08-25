@@ -70,6 +70,10 @@
     order: 2;
 }
 
+.navbar__input:focus{
+    outline: none;
+}
+
 .navbar__input--container{
     background: #F5F5F5;
     border: none;
@@ -78,6 +82,23 @@
     padding: 8px 16px;
     width: 100%;
     display: none;
+}
+
+.navbar__resultado{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    height: 163px;
+    overflow-y: scroll;
+    position: absolute;
+    width: 272px;
+    z-index: 1;
+}
+
+.navbar__li{
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (min-width:768px) {

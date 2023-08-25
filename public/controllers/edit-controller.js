@@ -26,24 +26,8 @@ const Product = (name, imgURL, price, id ) =>{
     const btn = cardMario.querySelector("button");
     btn.addEventListener("click", () => {
         const id = btn.id;
-        productsGenericService.eliminarProducto(id, "products-mario_bros").then((respuesta) =>{
+        productsGenericService.eliminarProducto(id).then((respuesta) =>{
             window.location.href = "/products-mario_bros"
-            console.log(respuesta);
-        }).catch(err => alert("Ocurrio un error eliza"))
-    });
-
-    btn.addEventListener("click", () => {
-        const id = btn.id;
-        productsGenericService.eliminarProducto(id, "products-video_game").then((respuesta) =>{
-            window.location.href = "/products-video_game"
-            console.log(respuesta);
-        }).catch(err => alert("Ocurrio un error eliza"))
-    });
-
-    btn.addEventListener("click", () => {
-        const id = btn.id;
-        productsGenericService.eliminarProducto(id, "products-board_game").then((respuesta) =>{
-            window.location.href = "/products-board_game"
             console.log(respuesta);
         }).catch(err => alert("Ocurrio un error eliza"))
     });
@@ -53,7 +37,7 @@ const Product = (name, imgURL, price, id ) =>{
 
 const targetas = document.querySelector("[data-mario]")
 
-productsGenericService.products("products-mario_bros").then((data) => {
+productsGenericService.products().then((data) => {
     data.forEach(({name, imgURL, price, id}) => {
         const editProducts = Product(name, imgURL, price, id)
         targetas.appendChild(editProducts)
@@ -63,7 +47,7 @@ productsGenericService.products("products-mario_bros").then((data) => {
 
 const nintento = document.querySelector("[data-nintendo]")
 
-productsGenericService.products("products-video_game").then((data) => {
+productsGenericService.products().then((data) => {
     data.forEach(({name, imgURL, price, id}) => {
         const editProducts = Product(name, imgURL, price, id)
         nintento.appendChild(editProducts)
@@ -72,7 +56,7 @@ productsGenericService.products("products-video_game").then((data) => {
 
 const gameBoard = document.querySelector("[data-gameBoard]")
 
-productsGenericService.products("products-board_game").then((data) => {
+productsGenericService.products().then((data) => {
     data.forEach(({name, imgURL, price, id}) => {
         const editProducts = Product(name, imgURL, price, id)
         gameBoard.appendChild(editProducts)

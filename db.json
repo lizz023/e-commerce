@@ -1,5 +1,5 @@
 {
-  "products-mario_bros": [
+  "products": [
     {
       "imgURL": "assets/img/cards/cards-mario/1234.jpg",
       "categoria": "mario bros",
@@ -127,9 +127,7 @@
       "price": "40",
       "descripcion": "jxshdsh",
       "id": "4d28acce-a18c-469c-afea-18f882d79daa"
-    }
-  ],
-  "products-video_game": [
+    },
     {
       "imgURL": "assets/img/cards/cards-consola/41W5CxtCsgL.webp",
       "categoria": "consolas",
@@ -201,9 +199,7 @@
       "price": "3O",
       "descripcion": "DJDJD",
       "id": "2c4c040e-e5cc-4305-afdd-413d4fdad706"
-    }
-  ],
-  "products-board_game": [
+    },
     {
       "imgURL": "assets/img/cards/cards-juegos/81l3EHcpx.jpg",
       "categoria": "products-board_game",
@@ -284,142 +280,9 @@
       "descripcion": "MCNCNCN",
       "id": "45dafa60-4cab-4b32-9896-dcaf0ed7bdaa"
     }
+    
   ],
   "usuarios": [
-    {
-      "email": "harland@alura.com",
-      "password": "hsgdbdhdo",
-      "id": 36
-    },
-    {
-      "email": "eliiza.023@gmail.com",
-      "password": "ggg",
-      "id": "94b010a0-ac0f-44f6-b143-098f735bb81b"
-    },
-    {
-      "email": "neiroandres@yahoo.com",
-      "password": "hahjjj",
-      "id": "08bc103b-9eb0-480e-9064-864c305cc889"
-    },
-    {
-      "email": "wm@gmail.com",
-      "password": "jjjs",
-      "id": "458b8aa2-7dce-46c4-a7e3-fd87ff83ed23"
-    },
-    {
-      "email": "eliiza.023@gmail.com",
-      "password": "sjshd",
-      "id": "b7b8406e-9f4e-4250-9fb9-e4d73c7ae66d"
-    },
-    {
-      "email": "abie@djdjd",
-      "password": "jss",
-      "id": "744209c4-1b80-4285-a36e-6d0bb409c184"
-    },
-    {
-      "email": "eliiza.023@gmail.com",
-      "password": "jjewasd",
-      "id": "477119f3-7b27-4e61-ad17-0102bc7017fb"
-    },
-    {
-      "email": "jjes@yahoo.com.co",
-      "password": "djwjhdw",
-      "id": "d6e57892-5e9a-4146-9b51-eb1787f1029c"
-    },
-    {
-      "email": "snsn@gmail.com",
-      "password": "jwjsj",
-      "id": "9d5a1e6e-06ba-473f-9b00-f460971c3097"
-    },
-    {
-      "email": "es@yahoo.com.co",
-      "password": "hjed",
-      "id": "b4e1caef-e755-42a0-ab60-5acdc05e1b38"
-    },
-    {
-      "email": "hdhhd@gmail.com",
-      "password": "hhdhdhdhd",
-      "id": "99891aa2-f975-4fad-9833-1b8ffcd35996"
-    },
-    {
-      "email": "lizaa@gmail.com",
-      "id": "aa105f22-221f-4451-82ac-898af0a7a8cf"
-    },
-    {
-      "email": "nebyu@gmail.com",
-      "password": "hxhdh",
-      "id": "af15c034-9b96-40ee-8341-0f82cc9f823c"
-    },
-    {
-      "email": "nebyu@gmail.com",
-      "password": "hshs",
-      "id": "e216b094-b889-4673-a698-581ecbab3d60"
-    },
-    {
-      "email": "lizaaaaaaaaaa@gmail.com",
-      "password": "hhdhd",
-      "id": "f579acbf-d65b-4dec-929c-a8b12266bbae"
-    },
-    {
-      "email": "liziaasssa@gmail.com",
-      "password": "hhdhd",
-      "id": "8464af1d-db97-4eb8-85d4-db173e3c5f5c"
-    },
-    {
-      "email": "asdf@gasdf.acdo",
-      "password": "asdfgfdsa",
-      "id": "6ebe68ba-81fc-4550-a523-60038179c0b1"
-    },
-    {
-      "email": "fdsa@asdf.acads",
-      "password": "124412",
-      "id": "80261166-90bb-4c19-b0f4-77dc5d977c4f"
-    },
-    {
-      "email": "1234@123.acasd",
-      "password": "123454321",
-      "id": "561d1182-03e4-458b-9223-b53b3052256c"
-    },
-    {
-      "email": "767657@232.ci",
-      "password": "123",
-      "id": "8389c3ce-2e7c-42e5-8c32-77b0d08083da"
-    },
-    {
-      "email": "12345@123.acasd",
-      "password": "1234asdf",
-      "id": "761a702c-04ce-4ad7-b8a4-efb6e44bd821"
-    },
-    {
-      "email": "abie@gmail.co",
-      "password": "hshs",
-      "id": "4a8b2b7e-4236-4178-adbf-abfaaba1e38b"
-    },
-    {
-      "email": "abie@djdjd.com",
-      "password": "jdjdj",
-      "id": "b784c521-340c-44f0-bd49-1ee108a221a8"
-    },
-    {
-      "email": "neiroandres@yahoo.com.co",
-      "password": "jzjz",
-      "id": "881ce4f3-0fa4-4e74-92b6-b55287e9a7f1"
-    },
-    {
-      "email": "abc@gmail.com",
-      "password": "jjsj",
-      "id": "1bec81b5-4227-4813-b559-fdd09c11ff11"
-    },
-    {
-      "email": "elizanebuabbie@gmail.com",
-      "password": "hahaha",
-      "id": "0ac9ff70-0cc0-44e0-9f67-003c96fab5fd"
-    },
-    {
-      "email": "abielinda@gmail.com",
-      "password": "jsjdj",
-      "id": "925c61aa-48ef-4dfc-a51c-e6917b0f4b6d"
-    },
     {
       "email": "admin@gmail.com",
       "password": "admin",

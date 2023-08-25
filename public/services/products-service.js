@@ -1,49 +1,45 @@
 
 //GET
-const products = (endpoint) =>
-    fetch("http://localhost:3000/" + endpoint).then(respuesta => respuesta.json());
+const products = () =>
+    fetch("https://64e776dfb0fd9648b78ffd5c.mockapi.io/products").then(respuesta => respuesta.json());
 
 
 //POST
 
-const createProducts = (imgURL,categoria,name,price,descripcion, endpoint) => {
-    return fetch(`http://localhost:3000/${endpoint}`, {
+const createProducts = (imgURL, categoria, name, price, descripcion) => {
+    return fetch(`https://64e776dfb0fd9648b78ffd5c.mockapi.io/products`, {
         method: "POST",
         headers: {
             "content-type": "application/json"
         },
-        body: JSON.stringify({imgURL,categoria,name,price,descripcion,id:uuid.v4()})
-        
-    }).then(respuesta => {
-        if(respuesta.ok){
-            return respuesta.body
-        }
-    })
+        body: JSON.stringify({ imgURL, categoria, name, price, descripcion, id: uuid.v4() })
+
+    }).then(respuesta => respuesta.ok);
 }
 
-const eliminarProducto = (id, endpoint) =>{
+const eliminarProducto = (id) => {
     console.log("Eliminar a ---> ", id)
-    return fetch(`http://localhost:3000/${endpoint}/${id}`, {
+    return fetch(`https://64e776dfb0fd9648b78ffd5c.mockapi.io/products/${id}`, {
         method: "DELETE",
     })
 }
 
-const updateProducto = (id, endpoint) =>{
-    return fetch(`http://localhost:3000/${endpoint}/${id}`).then((respuesta) => 
-    respuesta.json()
+const updateProducto = (id) => {
+    return fetch(`https://64e776dfb0fd9648b78ffd5c.mockapi.io/products/${id}`).then((respuesta) =>
+        respuesta.json()
     );
 }
 
-const productosActualizados = (imgURL, categoria, name, price, descripcion, id, endpoint) => {
-    return fetch(`http://localhost:3000/${endpoint}/${id}`,{
+const productosActualizados = (imgURL, categoria, name, price, descripcion, id) => {
+    return fetch(`https://64e776dfb0fd9648b78ffd5c.mockapi.io/products/${id}`, {
         method: "PUT",
         headers: {
             "content-type": "application/json"
         },
-        body: JSON.stringify({imgURL, categoria, name, price, descripcion})
+        body: JSON.stringify({ imgURL, categoria, name, price, descripcion })
     })
-    .then((respuesta) => respuesta)
-    .catch((err) => console.log(err));
+        .then((respuesta) => respuesta)
+        .catch((err) => console.log(err));
 }
 
 

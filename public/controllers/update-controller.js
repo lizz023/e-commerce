@@ -18,7 +18,7 @@ const obtenerInformacion = async() => {
     const descripcion = document.querySelector("[data-descripcion]")
 
     try {  
-        const datos = await productsGenericService.updateProducto(id, "products-mario_bros" )
+        const datos = await productsGenericService.updateProducto(id )
 
         if(datos.imgURL && datos.categoria && datos.name && datos.price && datos.descripcion ){
             console.log(datos)
@@ -33,42 +33,6 @@ const obtenerInformacion = async() => {
     } catch (error) {
         
     }     
-    
-    try {  
-        const dataUp = await productsGenericService.updateProducto(id, "products-video_game" )
-
-        if(dataUp.imgURL && dataUp.categoria && dataUp.name && dataUp.price && dataUp.descripcion ){
-            console.log(dataUp)
-            imgURL.value = dataUp.imgURL;
-            categoria.value = dataUp.categoria;
-            name.value = dataUp.name;
-            price.value = dataUp.price;
-            descripcion.value = dataUp.descripcion;
-        }else{
-            throw new Error();
-        }
-       
-    } catch (error) {
-        
-    }  
-
-    try {  
-        const dataBoard = await productsGenericService.updateProducto(id, "products-board_game" )
-
-        if(dataBoard.imgURL && dataBoard.categoria && dataBoard.name && dataBoard.price && dataBoard.descripcion ){
-            console.log(dataBoard)
-            imgURL.value = dataBoard.imgURL;
-            categoria.value = dataBoard.categoria;
-            name.value = dataBoard.name;
-            price.value = dataBoard.price;
-            descripcion.value = dataBoard.descripcion;
-        }else{
-            throw new Error();
-        }
-       
-    } catch (error) {
-        
-    }  
     
 }
 
@@ -87,15 +51,15 @@ formulario && formulario.addEventListener("submit", (evento) => {
     const descripcion = document.querySelector("[data-descripcion]").value
 
     console.log(imgURL,categoria,name,price,descripcion)
-    productsGenericService.productosActualizados(imgURL,categoria,name,price,descripcion, id ,"products-mario_bros").then (() =>{
+    productsGenericService.productosActualizados(imgURL,categoria,name,price,descripcion, id).then (() =>{
         window.location.href = "/products-mario_bros"
     })
 
-    productsGenericService.productosActualizados(imgURL,categoria,name,price,descripcion, id ,"products-video_game").then (() =>{
+    productsGenericService.productosActualizados(imgURL,categoria,name,price,descripcion, id).then (() =>{
         window.location.href = "/products-video_game"
     })
 
-    productsGenericService.productosActualizados(imgURL,categoria,name,price,descripcion, id ,"products-board_game").then (() =>{
+    productsGenericService.productosActualizados(imgURL,categoria,name,price,descripcion, id).then (() =>{
         window.location.href = "/products-board_game"
     })
 
