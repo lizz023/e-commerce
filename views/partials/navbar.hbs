@@ -11,18 +11,9 @@
             <button type="submit"target="_blank" requerid class="icon-Icone"></button>
         </form>
 
-        <div class="navbar__resultado" id="resultado" data-filterUserImput="">
-            <ul id="search">
-                <li class="navbar__li"><a href="" class="icon-Icone"></a>mario</li>
-                <li class="navbar__li"><a href="" class="icon-Icone"></a>peach</li>
-                <li class="navbar__li"><a href="" class="icon-Icone"></a>consola</li>
-            </ul>
-        </div>
+        <div class="navbar__resultado js-search-results hidden" data-filterUserImput=""></div>
 
     </div>
-      
-            
-        
         {{#if true}}
             <a href="/login" class="navbar__button">
                 Login
@@ -33,6 +24,13 @@
             </a>
         {{/if}}
     </div>
+
+    <form action="" class="form__mobile">
+        <div class="form__mobile__container">
+            <input type="text" class="form__input" placeholder="Buscar Productos">
+            <button type="submit" class="icon-Icone form__button__mobile"></button>
+        </div>
+    </form>
 
     
 </nav>

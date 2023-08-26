@@ -1,7 +1,10 @@
 .icon-Icone{
     align-items: center;
+    background: #F5F5F5;
+    border-radius: 20px;
+    border: none;
     display: flex;
-    font-size: 24px;
+    font-size: 8px;
     padding: 16px;
 }
 
@@ -57,6 +60,7 @@
 .navbar__container{
     align-items: center;
     display: flex;
+    gap: 30px;
     width: 100%;
 }
 
@@ -65,7 +69,7 @@
 }
 
 .navbar__input{
-    display: flex;
+    display: none;
     height: 40px;
     order: 2;
 }
@@ -79,18 +83,16 @@
     border: none;
     border-radius: 20px;
     outline: none;
-    padding: 8px 16px;
+    padding: 6px;
     width: 100%;
-    display: none;
 }
 
 .navbar__resultado{
     background-color: white;
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-    display: none;
-    height: 163px;
-    overflow-y: scroll;
+    max-height: 280px;
+    overflow-y: auto;
     position: absolute;
     width: 272px;
     z-index: 1;
@@ -99,6 +101,68 @@
 .navbar__li{
     display: flex;
     align-items: center;
+}
+
+.search-results__link {
+    color: inherit;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.search-results__link:hover {
+    background-color: #E2E2E2;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.form__mobile__container{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form__mobile{
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.form__input{
+    border: none;
+    padding: 8px;
+}
+
+.form__button__mobile{
+    background: transparent;
+    border: none;
+    height: 30px;
+}
+
+@media screen and (min-width:500px) {
+    .navbar__input{
+        background: #F5F5F5;
+        border-radius: 20px;
+        display: flex;
+        order: 1;
+        width: 170px;
+    }
+    .navbar__input--container{
+        background: #F5F5F5;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        padding: 6px;
+        width: 100%;
+    }
+
+    .form__mobile{
+        display: none;
+    }
+
+    .icon-Icone{
+        padding: 8px ;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -116,6 +180,7 @@
     .navbar__input{
         background: #F5F5F5;
         border-radius: 20px;
+        display: flex;
         order: 1;
         width: 272px;
     }
@@ -125,6 +190,11 @@
         width: 100%;
         width: 272px;
     }
+    .form__mobile{
+        display: none;
+    }
+    
+
 }
 
 
@@ -143,12 +213,21 @@
     .navbar__input{
         background: #F5F5F5;
         border-radius: 20px;
+        display: flex;
         order: 1;
-        
     }
 
     .navbar__input--container{
         display: flex;
+        padding: 8px 16px;
         width: 100%;
+    }
+
+    .form__mobile{
+        display: none;
+    }
+
+    .icon-Icone{
+        padding: 16px ;
     }
 }
