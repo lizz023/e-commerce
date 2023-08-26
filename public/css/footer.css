@@ -63,7 +63,7 @@
     content: "";
     height: 200%;
     position: absolute;
-    top: -100px;
+    top: -200px;
     transition: 0.3s;
     width: 150%;
     z-index: -1;

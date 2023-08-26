@@ -130,7 +130,9 @@
 
 .form__input{
     border: none;
+    cursor: pointer;
     padding: 8px;
+    outline: none;
 }
 
 .form__button__mobile{
