@@ -1,6 +1,6 @@
 .icon-Icone{
     align-items: center;
-    background: #F5F5F5;
+   
     border-radius: 20px;
     border: none;
     display: flex;
@@ -91,12 +91,13 @@
     background-color: white;
     border-radius: 0 0 20px 20px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-    max-height: 280px;
+    max-height: 90px;
     overflow-y: auto;
+    padding: 10px;
     position: absolute;
-    width: 272px;
     z-index: 1;
 }
+
 
 .navbar__li{
     display: flex;
@@ -116,16 +117,14 @@
 }
 
 .form__mobile__container{
-    border: 1px solid blue;
     display: flex;
-    justify-content: space-between;
     width: 100%;
 }
 
 .form__mobile{
-    border: none;
+    border: 1px solid blue;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .form__input{
@@ -158,6 +157,11 @@
         width: 100%;
     }
 
+    .navbar__resultado{
+        max-height: 210px;
+        width: 170px;
+    }
+
     .form__mobile{
         display: none;
     }
@@ -186,6 +190,9 @@
         order: 1;
         width: 272px;
     }
+    .navbar__resultado{
+        width: 272px;
+    }
 
     .navbar__input--container{
         display: flex;
@@ -195,10 +202,7 @@
     .form__mobile{
         display: none;
     }
-    
-
 }
-
 
 @media screen and (min-width:992px) {
     .navbar{
@@ -223,6 +227,11 @@
         display: flex;
         padding: 8px 16px;
         width: 100%;
+    }
+
+    .navbar__resultado{
+        max-height: 280px;
+        width: 272px;
     }
 
     .form__mobile{

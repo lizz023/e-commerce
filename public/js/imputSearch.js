@@ -11,12 +11,22 @@ import { productsGenericService } from "../services/products-service.js";
 // }
 
 const product = document.getElementById("search");
+const productSearchMobile = document.getElementById('searchMobile');
 
 product.addEventListener("submit", (e) => {
     e.preventDefault();
+    const userInput = document.getElementById("searchDesctock").value;
+    performSearch(userInput);
+})
 
+productSearchMobile.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const userInput = document.getElementById("searchInputMobile").value;
+    performSearch(userInput);
+})
+
+const performSearch = (userInput) => {
     const searchResultsList = document.getElementsByClassName('js-search-results')[0],
-        userInput = document.getElementById("searchInput").value,
         listProducts = productsGenericService.products();
 
     listProducts.then( search => {
@@ -32,9 +42,7 @@ product.addEventListener("submit", (e) => {
         searchResultsList.append(resultsList);
         searchResultsList.classList.remove('hidden');
     });
-  
-})
-
+}
 
 
 

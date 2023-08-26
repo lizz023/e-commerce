@@ -7,14 +7,14 @@
 
     <div>
         <form id="search" class="navbar__input">    
-            <input class="navbar__input--container" id="searchInput" type="search" placeholder="¿Qué deseas buscar?">
-            <button type="submit"target="_blank" requerid class="icon-Icone"></button>
+            <input class="navbar__input--container" id="searchDesctock" type="search" placeholder="¿Qué deseas buscar?">
+            <button type="submit" target="_blank" requerid class="icon-Icone"></button>
         </form>
 
         <div class="navbar__resultado js-search-results hidden" data-filterUserImput=""></div>
 
     </div>
-        {{#if true}}
+        {{#if false}}
             <a href="/login" class="navbar__button">
                 Login
             </a>
@@ -24,13 +24,13 @@
             </a>
         {{/if}}
     </div>
-
-    <form action="" class="form__mobile">
-        <div class="form__mobile__container">
-            <input type="text" class="form__input" placeholder="Buscar Productos">
+    <div class="form__mobile__container"></div>
+        <form id="searchMobile" class="form__mobile">
+            <input type="text" id="searchInputMobile" class="form__input" placeholder="Buscar Productos">
             <button type="submit" class="icon-Icone form__button__mobile"></button>
-        </div>
-    </form>
+        </form>
 
+         <div class="navbar__resultado--mobile js-search-results hidden" data-filterUserImput="" ></div>
+    </div>
     
 </nav>
